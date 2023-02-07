@@ -10,7 +10,7 @@ A seguir, encontram-se as primeiras linhas do conjunto de dados:
 
 ![alt text](https://github.com/Samirnunes/sp_polution_eda/blob/main/images/visao_geral_dataframe.PNG)
 
-As colunas possuem suas respectivas descrições a seguir:
+Suas colunas possuem as seguintes descrições:
 
 ID: identificação, via índice inteiro, de cada registro do dataframe.
 
