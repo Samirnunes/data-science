@@ -32,5 +32,11 @@ Suas colunas possuem as seguintes descrições:
 
 - Tipo: como foi realizada a medição (de forma automática ou manual)
 
+## Tecnologias e Bibliotecas Utilizadas
 
+- Jupyter Notebook
+- Python
+- Pandas
+- SQL (SQLite)
+- Matplotlib
  
