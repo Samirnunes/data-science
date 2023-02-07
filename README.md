@@ -10,7 +10,7 @@ Fonte dos dados: https://energiaeambiente.org.br/qualidadedoar#secao-14
 
 ## Dados e Descrições
 
-No sentido de desenvolver uma visão geral da situação da poluição atmosférica em todo o estado de São Paulo, justificando, por exemplo, seus impactos na saúde das pessoas, buscou-se os dados mais atualizados sobre as medições das concentrações de poluentes em diversas localidades e durante um longo período de tempo (início de 2015 até o fim de 2021) de forma a se verificar a evolução desse grande problema no estado. O resultado dessa busca foi um conjunto de dados com mais de 10 milhões de linhas englobando 87 estações de medição distintas distribuídas ao longo do estado de São Paulo que podem medir a concentração de 9 poluentes: MP10, O3, NO2, MP2.5, CO, SO2, NO, FMC e PTS. 
+No sentido de desenvolver uma visão geral da situação da poluição atmosférica em todo o estado de São Paulo, justificando, por exemplo, seus impactos na saúde das pessoas, buscou-se os dados mais atualizados sobre as medições das concentrações de poluentes em diversas localidades e durante um longo período de tempo (início de 2015 até o fim de 2021) de forma a se verificar a evolução desse grande problema ambiental e de saúde no estado. O resultado dessa busca foi um conjunto de dados com mais de 10 milhões de linhas englobando 87 estações de medição distintas distribuídas ao longo do estado de São Paulo que podem medir a concentração de 9 poluentes: MP10, O3, NO2, MP2.5, CO, SO2, NO, FMC e PTS. 
 
 A seguir, encontram-se as primeiras linhas do conjunto de dados:
     
