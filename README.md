@@ -15,7 +15,7 @@ No sentido de desenvolver uma visão geral da situação da poluição atmosfér
 A seguir, encontram-se as primeiras linhas do conjunto de dados:
     
 <p align="center">
-    <img width="600" src="https://github.com/Samirnunes/sp_polution_eda/blob/main/images/visao_geral_dataframe.PNG" alt="Material Bread logo">
+    <img width="800" src="https://github.com/Samirnunes/sp_polution_eda/blob/main/images/visao_geral_dataframe.PNG" alt="Material Bread logo">
 <p>
 
 Suas colunas possuem as seguintes descrições:
