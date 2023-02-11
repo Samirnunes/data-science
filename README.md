@@ -27,23 +27,23 @@ A seguir, encontram-se as primeiras linhas do conjunto de dados:
 
 Suas colunas possuem as seguintes descrições:
 
-- ID: identificação, via índice inteiro, de cada registro do dataframe.
+- ID: identificação, via índice inteiro, de cada registro do dataframe;
 
-- Data: data em que foi feita a medição da concentração do poluente.
+- Data: data em que foi feita a medição da concentração do poluente;
 
-- Hora: hora em que foi feita a medição.
+- Hora: hora em que foi feita a medição;
 
-- Estação: local em que foi feita a medição.
+- Estação: local em que foi feita a medição;
 
-- Código: código associado à estação em que foi realizada a medição.
+- Código: código associado à estação em que foi realizada a medição;
 
-- Poluente: poluente cuja concentração foi medida.
+- Poluente: poluente cuja concentração foi medida;
 
-- Valor: valor, na unidade especificada, da concentração do poluente.
+- Valor: valor, na unidade especificada, da concentração do poluente;
 
-- Unidade: unidade de concentração utilizada.
+- Unidade: unidade de concentração utilizada;
 
-- Tipo: como foi realizada a medição (de forma automática ou manual)
+- Tipo: como foi realizada a medição (de forma automática ou manual).
 
 ## Tecnologias e Bibliotecas Utilizadas
 
