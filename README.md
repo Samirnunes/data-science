@@ -54,5 +54,5 @@ Suas colunas possuem as seguintes descrições:
 - Pandas
 - SQL (SQLite)
 - Matplotlib
-- Sklearn
+- Sklearn (modelos Random Forest e XGBoost)
  
