@@ -1,4 +1,4 @@
-# Análise Exploratória de Dados: Poluição Atmosférica no Estado de São Paulo e Aplicação de Modelos de Modelos de Regressão para Predizer a Concentração de NO2 em São José dos Campos (SP)
+# Análise Exploratória de Dados: Poluição Atmosférica no Estado de São Paulo e Aplicação de Modelos de Regressão para Predizer a Concentração de NO2 em São José dos Campos (SP)
 
 <p align="center">
     <img width="400" src="https://github.com/Samirnunes/sp_polution_eda/blob/main/images/iema_logo.png" alt="Material Bread logo">
