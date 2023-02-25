@@ -1,10 +1,10 @@
 # Análise Exploratória de Dados sobre a Poluição Atmosférica no Estado de São Paulo e Aplicação de Modelos de Regressão para Estimar a Concentração de NO2 em São José dos Campos (SP)
 
-Assuntos dos notebooks:
+Notebooks e seus assuntos:
 
-eda_air_pollution_sao_paulo.ipynb: Análise Exploratória de Dados.
+- eda_air_pollution_sao_paulo.ipynb: Análise Exploratória de Dados.
 
-NO2_prediction_SJC.ipynb: Machine Learning (Random Forest e XGBoost)
+- NO2_prediction_SJC.ipynb: Machine Learning (Random Forest e XGBoost)
 
 <p align="center">
     <img width="400" src="https://github.com/Samirnunes/sp_polution_eda/blob/main/images/iema_logo.png" alt="Material Bread logo">
