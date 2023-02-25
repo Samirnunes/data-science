@@ -8,9 +8,9 @@ Página do meu perfil no Kaggle associada: https://www.kaggle.com/code/samirnune
     
 Notebooks do repositório e seus assuntos:
 
-- eda_air_pollution_sao_paulo.ipynb: Análise Exploratória de Dados.
+- eda_air_pollution_sao_paulo.ipynb: Análise Exploratória de Dados;
 
-- NO2_prediction_SJC.ipynb: Machine Learning (Random Forest e XGBoost)
+- NO2_prediction_SJC.ipynb: Machine Learning (Random Forest e XGBoost).
 
 Neste repositório, realiza-se uma análise exploratória (EDA - Exploratory Data Analysis) acerca dos dados de poluição atmosférica no estado de São Paulo, no Brasil, e a utilização de modelos de aprendizado de máquina para prever a concentração de NO2 em São José dos Campos (SP) com base na hora e na concentração de NO na mesma hora do dia. Os dados foram retirados da Plataforma Qualidade do Ar, do Instituto de Energia e Meio Ambiente (IEMA) - uma organização sem fins lucrativos brasileira, fundada em 2006 e com sede em São Paulo (SP) que, segundo seu site, "tem contribuído para a melhoria da qualidade ambiental de forma socialmente justa e sustentável por meio da geração e da sistematização de conhecimento técnico e científico, subsidiando a formulação e a avaliação de políticas públicas nas áreas de energia elétrica e de transportes".
 
