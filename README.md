@@ -3,6 +3,12 @@
 <p align="center">
     <img width="400" src="https://github.com/Samirnunes/sp_polution_eda/blob/main/images/iema_logo.png" alt="Material Bread logo">
 <p>
+    
+Notebooks do repositório e seus assuntos:
+
+- eda_air_pollution_sao_paulo.ipynb: Análise Exploratória de Dados;
+
+- NO2_prediction_SJC.ipynb: Machine Learning (Random Forest e XGBoost).    
 
 Página do meu perfil no Kaggle associada: https://www.kaggle.com/code/samirnunesdasilva/eda-polui-o-do-ar-no-estado-de-s-o-paulo
 
