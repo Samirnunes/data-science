@@ -1,4 +1,4 @@
-
-data/sp_polution.db
-data/SP_poluicao_dados.csv
+eda_air_pollution_sao_paulo/data/sp_polution.db
+eda_air_pollution_sao_paulo/data/SP_poluicao_dados.csv
 eda_dashboard_air_pollution_sao_paulo.pbix
+eda_sql_univariate_tech_layoffs/data/tech_layoffs.db
