@@ -1,10 +1,12 @@
-# Análise Exploratória de Dados sobre a Poluição Atmosférica no Estado de São Paulo e Aplicação de Modelos de Regressão para Estimar a Concentração de NO2 em São José dos Campos (SP)
+# Projetos
+
+# 1) Análise Exploratória de Dados sobre a Poluição Atmosférica no Estado de São Paulo e Aplicação de Modelos de Regressão para Estimar a Concentração de NO2 em São José dos Campos (SP)
 
 <p align="center">
     <img width="400" src="https://github.com/Samirnunes/exploratory_data_analysis/blob/main/eda_air_pollution_sao_paulo/images/iema_logo.png" alt="Material Bread logo">
 <p>
     
-Notebooks do repositório e seus assuntos:
+Notebooks da pasta `eda_air_pollution_sao_paulo` e seus assuntos:
 
 - eda_air_pollution_sao_paulo.ipynb: Análise Exploratória de Dados;
 
@@ -62,7 +64,7 @@ Suas colunas possuem as seguintes descrições:
 - Matplotlib
 - Scikit-Learn (modelos Random Forest e XGBoost)
  
-# Análise Univariada em SQL: Layoffs nas Empresas de Tecnologia (2022-2023)
+# 2) Análise Univariada em SQL: Layoffs nas Empresas de Tecnologia (2022-2023)
 
 <p align="center">
     <img width="300" src="https://github.com/Samirnunes/eda_sql_univariate_tech_layoffs/blob/main/images/sqlite.jpg" alt="Material Bread logo">
