@@ -37,23 +37,23 @@ A seguir, encontram-se as primeiras linhas do conjunto de dados:
 
 Suas colunas possuem as seguintes descrições:
 
-- ID: identificação, via índice inteiro, de cada registro do dataframe;
+- `ID`: identificação, via índice inteiro, de cada registro do dataframe;
 
-- Data: data em que foi feita a medição da concentração do poluente;
+- `Data`: data em que foi feita a medição da concentração do poluente;
 
-- Hora: hora em que foi feita a medição;
+- `Hora`: hora em que foi feita a medição;
 
-- Estação: local em que foi feita a medição;
+- `Estação`: local em que foi feita a medição;
 
-- Código: código associado à estação em que foi realizada a medição;
+- `Código`: código associado à estação em que foi realizada a medição;
 
-- Poluente: poluente cuja concentração foi medida;
+- `Poluente`: poluente cuja concentração foi medida;
 
-- Valor: valor, na unidade especificada, da concentração do poluente;
+- `Valor`: valor, na unidade especificada, da concentração do poluente;
 
-- Unidade: unidade de concentração utilizada;
+- vUnidade`: unidade de concentração utilizada;
 
-- Tipo: como foi realizada a medição (de forma automática ou manual).
+- `Tipo`: como foi realizada a medição (de forma automática ou manual).
 
 ## Tecnologias e Bibliotecas Utilizadas
 
@@ -92,25 +92,25 @@ A seguir, encontram-se as primeiras linhas do conjunto de dados:
 
 Suas colunas possuem as seguintes descrições:
 
-- ID: chave primária inteira;
+- `ID`: chave primária inteira;
 
-- company: empresa que realizou o layoff (demissão em massa);
+- `company`: empresa que realizou o layoff (demissão em massa);
 
-- total_layoffs: número de funcionários demitidos até janeiro de 2023;
+- `total_layoffs`: número de funcionários demitidos até janeiro de 2023;
 
-- impacted_workforce_percentage: porcentagem da força de trabalho total da empresa que foi demitida pelos layoffs;
+- `impacted_workforce_percentage`: porcentagem da força de trabalho total da empresa que foi demitida pelos layoffs;
 
-- reported_date: data em que o primeiro layoff ou planos de layoff da empresa foram anunciados;
+- `reported_date`: data em que o primeiro layoff ou planos de layoff da empresa foram anunciados;
 
-- industry: segmentos de atuação da empresa;
+- `industry`: segmentos de atuação da empresa;
 
-- headquarter_location: localização da sede da empresa;
+- `headquarter_location`: localização da sede da empresa;
 
-- sources: fonte dos dados;
+- `sources`: fonte dos dados;
 
-- status: se a empresa é pública ou privada.
+- `status`: se a empresa é pública ou privada.
 
-- additional_notes: notas adicionais sobre o plano de layoffs da empresa.
+- `additional_notes`: notas adicionais sobre o plano de layoffs da empresa.
 
 ## Tecnologias e Bibliotecas Utilizadas
 
