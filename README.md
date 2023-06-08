@@ -1,7 +1,7 @@
 # Análise Exploratória de Dados sobre a Poluição Atmosférica no Estado de São Paulo e Aplicação de Modelos de Regressão para Estimar a Concentração de NO2 em São José dos Campos (SP)
 
 <p align="center">
-    <img width="400" src="https://github.com/Samirnunes/sp_polution_eda/blob/main/images/iema_logo.png" alt="Material Bread logo">
+    <img width="400" src="https://github.com/Samirnunes/exploratory_data_analysis/blob/main/eda_air_pollution_sao_paulo/images/iema_logo.png" alt="Material Bread logo">
 <p>
     
 Notebooks do repositório e seus assuntos:
@@ -30,7 +30,7 @@ A análise dos dados no notebook é organizada em quatro partes essenciais. São
 A seguir, encontram-se as primeiras linhas do conjunto de dados:
     
 <p align="center">
-    <img width="850" src="https://github.com/Samirnunes/sp_polution_eda/blob/main/images/visao_geral_dataframe.PNG" alt="Material Bread logo">
+    <img width="850" src="https://github.com/Samirnunes/exploratory_data_analysis/blob/main/eda_sql_univariate_tech_layoffs/images/visao_geral_dataframe.PNG" alt="Material Bread logo">
 <p>
 
 Suas colunas possuem as seguintes descrições:
