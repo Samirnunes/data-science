@@ -32,7 +32,7 @@ A análise dos dados no notebook é organizada em quatro partes essenciais. São
 A seguir, encontram-se as primeiras linhas do conjunto de dados:
     
 <p align="center">
-    <img width="850" src="https://github.com/Samirnunes/exploratory_data_analysis/blob/main/eda_sql_univariate_tech_layoffs/images/visao_geral_dataframe.PNG" alt="Material Bread logo">
+    <img width="850" src="https://github.com/Samirnunes/exploratory_data_analysis/blob/main/eda_air_pollution_sao_paulo/images/visao_geral_dataframe.PNG" alt="Material Bread logo">
 <p>
 
 Suas colunas possuem as seguintes descrições:
@@ -67,7 +67,7 @@ Suas colunas possuem as seguintes descrições:
 # 2) Análise Univariada em SQL: Layoffs nas Empresas de Tecnologia (2022-2023)
 
 <p align="center">
-    <img width="300" src="https://github.com/Samirnunes/eda_sql_univariate_tech_layoffs/blob/main/images/sqlite.jpg" alt="Material Bread logo">
+    <img width="300" src="https://github.com/Samirnunes/exploratory_data_analysis/blob/main/eda_sql_univariate_tech_layoffs/images/sqlite.jpg" alt="Material Bread logo">
 <p>
  
 Fonte dos dados: https://www.kaggle.com/datasets/salimwid/technology-company-layoffs-20222023-data
@@ -87,7 +87,7 @@ sqlite3 do Python em associação à biblioteca Pandas.
 A seguir, encontram-se as primeiras linhas do conjunto de dados:
 
 <p align="center">
-    <img width="1000" src="https://github.com/Samirnunes/eda_sql_univariate_tech_layoffs/blob/main/images/visao_geral_dataframe.PNG" alt="Material Bread logo">
+    <img width="1000" src="https://github.com/Samirnunes/exploratory_data_analysis/blob/main/eda_sql_univariate_tech_layoffs/images/visao_geral_dataframe.PNG" alt="Material Bread logo">
 <p>
 
 Suas colunas possuem as seguintes descrições:
