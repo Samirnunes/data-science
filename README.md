@@ -51,7 +51,7 @@ Suas colunas possuem as seguintes descrições:
 
 - `Valor`: valor, na unidade especificada, da concentração do poluente;
 
-- vUnidade`: unidade de concentração utilizada;
+- `Unidade`: unidade de concentração utilizada;
 
 - `Tipo`: como foi realizada a medição (de forma automática ou manual).
 
