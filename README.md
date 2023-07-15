@@ -6,7 +6,7 @@
     <img width="400" src="https://github.com/Samirnunes/exploratory-data-analysis-projects/blob/main/eda-air-pollution-sao-paulo/images/iema_logo.png" alt="Material Bread logo">
 <p>
     
-Notebooks da pasta `eda-air-pollution-sao-paulo` e seus assuntos:
+Notebooks da pasta `air-pollution-sao-paulo-project` e seus assuntos:
 
 - `eda-air-pollution-sao-paulo.ipynb`: Análise Exploratória de Dados;
 
@@ -72,7 +72,7 @@ Suas colunas possuem as seguintes descrições:
  
 Fonte dos dados: https://www.kaggle.com/datasets/salimwid/technology-company-layoffs-20222023-data
 
-Arquivos na pasta `eda-sql-univariate-tech-layoffs`.
+Arquivos na pasta `sql-tech-layoffs-project`.
     
 O objetivo deste projeto é utilizar os dados atuais acerca das demissões nas áreas de tecnologia de 
 várias empresas para praticar o uso da linguagem SQL (Standard Query Language) para análise de dados.
