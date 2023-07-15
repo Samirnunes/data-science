@@ -87,7 +87,7 @@ sqlite3 do Python em associação à biblioteca Pandas.
 A seguir, encontram-se as primeiras linhas do conjunto de dados:
 
 <p align="center">
-    <img width="1000" src="https://github.com/Samirnunes/exploratory_data_analysis/blob/main/eda_sql_univariate_tech_layoffs/images/visao_geral_dataframe.PNG" alt="Material Bread logo">
+    <img width="1000" src="https://github.com/Samirnunes/exploratory-data-analysis-projects/blob/main/eda-sql-tech-layoffs/images/visao-geral-dataframe.PNG" alt="Material Bread logo">
 <p>
 
 Suas colunas possuem as seguintes descrições:
