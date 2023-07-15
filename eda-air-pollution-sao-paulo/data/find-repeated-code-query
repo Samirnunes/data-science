@@ -1,0 +1,7 @@
+SELECT x.Codigo, x.Estacao 
+FROM 
+    (SELECT DISTINCT Codigo, Estacao FROM data) x,
+    (SELECT DISTINCT Codigo, Estacao FROM data) y
+WHERE x.Codigo = y.Codigo
+AND x.Estacao <> y.Estacao
+ORDER BY x.Codigo
