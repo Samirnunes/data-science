@@ -67,7 +67,7 @@ Suas colunas possuem as seguintes descrições:
 # 2) Análise Univariada em SQL: Layoffs nas Empresas de Tecnologia (2022-2023)
 
 <p align="center">
-    <img width="300" src="https://github.com/Samirnunes/exploratory-data-analysis-and-machine-learning-projects/blob/main/sql-tech-layoffs-project/images/sqlite.jpg alt="Material Bread logo">
+    <img width="300" src="https://github.com/Samirnunes/exploratory-data-analysis-and-machine-learning-projects/blob/main/sql-tech-layoffs-project/images/sqlite.jpg" alt="Material Bread logo">
 <p>
  
 Fonte dos dados: https://www.kaggle.com/datasets/salimwid/technology-company-layoffs-20222023-data
