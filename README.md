@@ -3,7 +3,7 @@
 # 1) Análise Exploratória de Dados sobre a Poluição Atmosférica no Estado de São Paulo e Aplicação de Modelos de Regressão para Estimar a Concentração de NO2 em São José dos Campos (SP)
 
 <p align="center">
-    <img width="400" src="https://github.com/Samirnunes/exploratory-data-analysis-projects/blob/main/eda-air-pollution-sao-paulo/images/iema_logo.png" alt="Material Bread logo">
+    <img width="400" src="https://github.com/Samirnunes/exploratory-data-analysis-and-machine-learning-projects/blob/main/air-pollution-sao-paulo-project/images/iema_logo.png" alt="Material Bread logo">
 <p>
     
 Notebooks da pasta `air-pollution-sao-paulo-project` e seus assuntos:
