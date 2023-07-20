@@ -32,7 +32,7 @@ A análise dos dados no notebook é organizada em quatro partes essenciais. São
 A seguir, encontram-se as primeiras linhas do conjunto de dados:
     
 <p align="center">
-    <img width="850" src="https://github.com/Samirnunes/exploratory-data-analysis-projects/blob/main/eda-air-pollution-sao-paulo/images/visao_geral_dataframe.PNG" alt="Material Bread logo">
+    <img width="850" src="https://github.com/Samirnunes/exploratory-data-analysis-and-machine-learning-projects/blob/main/air-pollution-sao-paulo-project/images/visao_geral_dataframe.PNG" alt="Material Bread logo">
 <p>
 
 Suas colunas possuem as seguintes descrições:
