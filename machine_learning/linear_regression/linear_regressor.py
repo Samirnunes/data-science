@@ -1,3 +1,4 @@
+import numpy as np
 from supervised_model import *
 from parameters import Parameters
 from copy import deepcopy
