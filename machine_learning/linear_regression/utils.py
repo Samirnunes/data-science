@@ -1,5 +1,7 @@
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 def shuffle_data(data, random_state):
     '''Shuffles a Pandas Dataframe's data.'''
@@ -25,6 +27,10 @@ def split_data(X, y, test_split_factor: float, val_split_factor: float):
 
 def loss(model, X_test, y_test):
     return np.mean((model.predict(X_test) - y_test)**2)
+
+def plot_correlations(X_train, y_train):
+    sns.heatmap(pd.concat([X_train, y_train], axis = 1).corr(), cmap = "flare", annot = True)
+    plt.show()
 
 def plot_train_loss(loss):
     plt.plot(loss)
