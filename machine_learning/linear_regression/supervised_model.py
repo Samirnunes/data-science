@@ -12,5 +12,18 @@ class SupervisedModel(ABC):
         pass
 
     @abstractmethod
+    def loss(self, X, y):
+        pass
+
+    @abstractmethod
     def predict(self, X_pred):
         pass
+
+    @abstractmethod
+    def get_train_loss(self):
+        pass
+
+    @abstractmethod
+    def get_parameters(self):
+        pass
+

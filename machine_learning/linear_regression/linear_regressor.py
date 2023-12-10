@@ -20,14 +20,14 @@ class LinearRegressor(SupervisedModel):
     def loss(self, X, y):
         return np.mean((self.predict(X) - y)**2)
     
+    def predict(self, X_pred):
+        return np.array(X_pred @ self.__parameters.ws + self.__parameters.b)
+    
     def get_train_loss(self):
         return self.__train_loss
     
     def get_parameters(self):
         return self.__parameters
-
-    def predict(self, X_pred):
-        return np.array(X_pred @ self.__parameters.ws + self.__parameters.b)
 
     def __sgd_update(self, X_train, y_train):
         total_rows = len(y_train)
