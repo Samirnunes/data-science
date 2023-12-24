@@ -1,10 +1,10 @@
 import numpy as np
-from supervised_model import *
-from parameters import Parameters
 from copy import deepcopy
+from models.supervised_model import *
+from linear_regression_parameters import LinearRegressionParameters
 
 class LinearRegressor(SupervisedModel):
-    def __init__(self, parameters: Parameters):
+    def __init__(self, parameters: LinearRegressionParameters):
         self.__parameters = deepcopy(parameters)
         self.__parameters.ws = deepcopy(self.__parameters.initial_weights)
         self.__parameters.b = deepcopy(self.__parameters.initial_bias)

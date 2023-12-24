@@ -1,4 +1,4 @@
-from parameters import Parameters
+from models.parameters import Parameters
 
 class LinearRegressionParameters(Parameters):
     def __init__(self):
