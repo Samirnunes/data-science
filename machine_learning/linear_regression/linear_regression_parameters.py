@@ -1,3 +1,5 @@
+import sys
+sys.path.append('../')
 from models.parameters import Parameters
 
 class LinearRegressionParameters(Parameters):

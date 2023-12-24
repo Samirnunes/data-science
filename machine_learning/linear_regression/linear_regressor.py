@@ -1,3 +1,5 @@
+import sys
+sys.path.append('../')
 import numpy as np
 from copy import deepcopy
 from models.supervised_model import *
