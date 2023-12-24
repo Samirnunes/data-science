@@ -11,5 +11,3 @@ class LinearRegressionParameters(Parameters):
         self.alpha = 0.1
         self.lambda_reg = 0.1
         self.random_state = 0
-        self.ws = []
-        self.b = 0

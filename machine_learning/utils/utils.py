@@ -13,6 +13,12 @@ def standard_scale(X, X_train):
     std = X_train.std()
     return (X - mean)/std
 
+def min_max_scale(feature, unscaled_train_feature):
+    '''Scales a feature so that its values lie between 0 and 1.'''
+    minimum = min(unscaled_train_feature)
+    maximum = max(unscaled_train_feature)
+    return (feature - minimum)/(maximum - minimum)
+
 def split_data(X, y, test_split_factor: float, val_split_factor: float):
     total_rows = len(y)
     test_size = int(test_split_factor * total_rows)

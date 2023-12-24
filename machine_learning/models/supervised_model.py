@@ -1,12 +1,13 @@
 from abc import ABC, abstractmethod
+from models.parameters import Parameters
 
 class SupervisedModel(ABC):
     @abstractmethod
-    def __init__(self, parameters: dict):
+    def __init__(self, parameters: Parameters):
         pass
 
     @abstractmethod
-    def fit(self, X_train, y_train):
+    def fit(self, X_train, y_train, print_loss):
         pass
 
     @abstractmethod

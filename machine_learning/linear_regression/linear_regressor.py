@@ -8,8 +8,8 @@ from linear_regression_parameters import LinearRegressionParameters
 class LinearRegressor(SupervisedModel):
     def __init__(self, parameters: LinearRegressionParameters):
         self.__parameters = deepcopy(parameters)
-        self.__parameters.ws = deepcopy(self.__parameters.initial_weights)
-        self.__parameters.b = deepcopy(self.__parameters.initial_bias)
+        self.__ws = deepcopy(self.__parameters.initial_weights)
+        self.__b = deepcopy(self.__parameters.initial_bias)
         self.__train_loss = []
 
     def fit(self, X_train, y_train, print_loss = False):
@@ -24,7 +24,13 @@ class LinearRegressor(SupervisedModel):
         return np.mean((self.predict(X) - y)**2)
     
     def predict(self, X_pred):
-        return np.array(X_pred @ self.__parameters.ws + self.__parameters.b)
+        return np.array(X_pred @ self.__ws + self.__b)
+    
+    def get_weights(self):
+        return self.__ws
+    
+    def get_bias(self):
+        return self.__b
     
     def get_train_loss(self):
         return self.__train_loss
@@ -50,11 +56,11 @@ class LinearRegressor(SupervisedModel):
 
     def __batch_update(self, X_batch, y_batch, batch_size, correction_constant):
         y_pred = self.predict(X_batch)
-        diff = y_pred - y_batch
-        partial_w = (2/batch_size) * (diff @ X_batch.values) + 2 * self.__parameters.lambda_reg * self.__parameters.ws
-        partial_b = (2/batch_size) * np.sum(diff)
-        self.__parameters.ws -= self.__parameters.alpha * partial_w * correction_constant
-        self.__parameters.b -= self.__parameters.alpha * partial_b * correction_constant
+        diff = y_batch - y_pred
+        partial_w = -(2/batch_size) * (diff @ X_batch.values) + 2 * self.__parameters.lambda_reg * self.__ws
+        partial_b = -(2/batch_size) * np.sum(diff)
+        self.__ws -= self.__parameters.alpha * partial_w * correction_constant
+        self.__b -= self.__parameters.alpha * partial_b * correction_constant
 
 
 
