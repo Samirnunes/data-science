@@ -6,11 +6,11 @@
     <img width="400" src="https://github.com/Samirnunes/data-science/blob/main/data_analysis/air_pollution/images/iema_logo.png" alt="Material Bread logo">
 <p>
     
-Notebooks da pasta `air-pollution-sao-paulo-project` e seus assuntos:
+Notebooks da pasta `air-pollution` e seus assuntos:
 
-- `eda-air-pollution-sao-paulo.ipynb`: Análise Exploratória de Dados;
+- `eda.ipynb`: Análise Exploratória de Dados;
 
-- `NO2-prediction-SJC.ipynb`: Machine Learning (Random Forest e XGBoost).    
+- `prediction.ipynb`: Machine Learning (Random Forest e XGBoost).    
 
 Página do meu perfil no Kaggle associada: https://www.kaggle.com/code/samirnunesdasilva/eda-polui-o-do-ar-no-estado-de-s-o-paulo
 
@@ -72,7 +72,9 @@ Suas colunas possuem as seguintes descrições:
  
 Fonte dos dados: https://www.kaggle.com/datasets/salimwid/technology-company-layoffs-20222023-data
 
-Arquivos na pasta `sql-tech-layoffs-project`.
+Arquivos na pasta `tech_layoffs` e seus assuntos:
+
+- `eda.ipynb`: Análise Exploratória de Dados;
     
 O objetivo deste projeto é utilizar os dados atuais acerca das demissões nas áreas de tecnologia de 
 várias empresas para praticar o uso da linguagem SQL (Standard Query Language) para análise de dados.
