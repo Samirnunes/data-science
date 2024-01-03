@@ -1,4 +1,4 @@
-# Projetos
+# Projetos de Análise de Dados
 
 # 1) Análise Exploratória de Dados sobre a Poluição Atmosférica no Estado de São Paulo e Aplicação de Modelos de Regressão para Estimar a Concentração de NO2 em São José dos Campos (SP)
 
