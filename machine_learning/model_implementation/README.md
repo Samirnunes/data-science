@@ -1,4 +1,4 @@
-# Projetos de Machine Learning 
+# Implementação de Modelos de Aprendizado de Máquina do Zero
 
 # 1) Modelo de Regressão Linear via Gradiente Descendente Estocástico com Mini-lotes
  
