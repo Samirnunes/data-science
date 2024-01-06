@@ -1,16 +1,16 @@
-# Projetos
+# Projetos de Análise de Dados
 
 # 1) Análise Exploratória de Dados sobre a Poluição Atmosférica no Estado de São Paulo e Aplicação de Modelos de Regressão para Estimar a Concentração de NO2 em São José dos Campos (SP)
 
 <p align="center">
-    <img width="400" src="https://github.com/Samirnunes/exploratory-data-analysis-and-machine-learning-projects/blob/main/air-pollution-sao-paulo-project/images/iema_logo.png" alt="Material Bread logo">
+    <img width="400" src="https://github.com/Samirnunes/data-science/blob/main/data_analysis/air_pollution/images/iema_logo.png" alt="Material Bread logo">
 <p>
     
-Notebooks da pasta `air-pollution-sao-paulo-project` e seus assuntos:
+Notebooks da pasta `air-pollution` e seus assuntos:
 
-- `eda-air-pollution-sao-paulo.ipynb`: Análise Exploratória de Dados;
+- `eda.ipynb`: Análise Exploratória de Dados;
 
-- `NO2-prediction-SJC.ipynb`: Machine Learning (Random Forest e XGBoost).    
+- `prediction.ipynb`: Machine Learning (Random Forest e XGBoost).    
 
 Página do meu perfil no Kaggle associada: https://www.kaggle.com/code/samirnunesdasilva/eda-polui-o-do-ar-no-estado-de-s-o-paulo
 
@@ -32,7 +32,7 @@ A análise dos dados no notebook é organizada em quatro partes essenciais. São
 A seguir, encontram-se as primeiras linhas do conjunto de dados:
     
 <p align="center">
-    <img width="850" src="https://github.com/Samirnunes/exploratory-data-analysis-and-machine-learning-projects/blob/main/air-pollution-sao-paulo-project/images/visao_geral_dataframe.PNG" alt="Material Bread logo">
+    <img width="850" src="https://github.com/Samirnunes/data-science/blob/main/data_analysis/air_pollution/images/visao_geral_dataframe.PNG" alt="Material Bread logo">
 <p>
 
 Suas colunas possuem as seguintes descrições:
@@ -67,12 +67,14 @@ Suas colunas possuem as seguintes descrições:
 # 2) Análise Univariada em SQL: Layoffs nas Empresas de Tecnologia (2022-2023)
 
 <p align="center">
-    <img width="300" src="https://github.com/Samirnunes/exploratory-data-analysis-and-machine-learning-projects/blob/main/sql-tech-layoffs-project/images/sqlite.jpg" alt="Material Bread logo">
+    <img width="300" src="https://github.com/Samirnunes/data-science/blob/main/data_analysis/tech_layoffs/images/sqlite.jpg" alt="Material Bread logo">
 <p>
  
 Fonte dos dados: https://www.kaggle.com/datasets/salimwid/technology-company-layoffs-20222023-data
 
-Arquivos na pasta `sql-tech-layoffs-project`.
+Arquivos na pasta `tech_layoffs` e seus assuntos:
+
+- `eda.ipynb`: Análise Exploratória de Dados;
     
 O objetivo deste projeto é utilizar os dados atuais acerca das demissões nas áreas de tecnologia de 
 várias empresas para praticar o uso da linguagem SQL (Standard Query Language) para análise de dados.
@@ -87,7 +89,7 @@ sqlite3 do Python em associação à biblioteca Pandas.
 A seguir, encontram-se as primeiras linhas do conjunto de dados:
 
 <p align="center">
-    <img width="1000" src="https://github.com/Samirnunes/exploratory-data-analysis-and-machine-learning-projects/blob/main/sql-tech-layoffs-project/images/visao_geral_dataframe.PNG" alt="Material Bread logo">
+    <img width="1000" src="https://github.com/Samirnunes/data-science/blob/main/data_analysis/tech_layoffs/images/visao_geral_dataframe.PNG" alt="Material Bread logo">
 <p>
 
 Suas colunas possuem as seguintes descrições:

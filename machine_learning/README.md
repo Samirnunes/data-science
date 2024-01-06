@@ -1,4 +1,4 @@
-# Projetos
+# Projetos de Machine Learning 
 
 # 1) Modelo de Regressão Linear via Gradiente Descendente Estocástico com Mini-lotes
  
