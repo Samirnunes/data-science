@@ -2,7 +2,7 @@ import sys
 sys.path.append('../')
 import numpy as np
 from copy import deepcopy
-from models.supervised_model import *
+from base_classes.supervised_model import *
 from linear_regression_parameters import LinearRegressionParameters
 
 class LinearRegressor(SupervisedModel):
