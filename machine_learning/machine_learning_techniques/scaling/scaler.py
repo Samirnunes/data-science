@@ -1,7 +1,6 @@
 import sys
 sys.path.append('../')
 import pandas as pd
-from utils.churn_modelling_utils import num_cat_cols
 from sklearn.preprocessing import (
     MinMaxScaler,
     RobustScaler,
@@ -12,8 +11,7 @@ class Scaler:
     def __init__(self, scale_method: str):
         self.scale_method = scale_method
     
-    def scale(self, X_train, X_test):
-        num_cols, _ = num_cat_cols(X_train)
+    def scale(self, X_train, X_test, num_cols):
         X_train_num = X_train[num_cols].copy()
         X_test_num = X_test[num_cols].copy()
         scaler = self.__select_scaler()

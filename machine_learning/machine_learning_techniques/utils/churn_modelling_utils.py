@@ -1,11 +1,9 @@
+import sys
+sys.path.append('../')
 import pandas as pd
 from sklearn.impute import SimpleImputer
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import (
-    MinMaxScaler,
-    RobustScaler,
-    StandardScaler,
-)
+from scaling.scaler import Scaler
 
 def import_data():
     df = pd.read_csv("../data/Churn_Modelling.csv")
@@ -15,7 +13,7 @@ def split_data(df):
     label = ["Exited"]
     X = df.loc[:, ~df.columns.isin(label)]
     y = df[label]
-    X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=0.8)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=0.8, random_state=0)
     return X_train, X_test, y_train, y_test
 
 def impute_data(X_train, X_test, y_train, y_test):
@@ -41,6 +39,13 @@ def one_hot_encode(X_train, X_test, y_train, y_test):
 
     return X_train, X_test, y_train, y_test
 
-def initial_preprocess(df):
+def preprocess_without_scale(df):
     return one_hot_encode(*impute_data(*split_data(df)))
+
+def preprocess(df):
+    X_train, X_test, y_train, y_test = preprocess_without_scale(df)
+    num_cols, _ = num_cat_cols(X_train)
+    scaler = Scaler("standard")
+    X_train, X_test = scaler.scale(X_train, X_test, num_cols)
+    return X_train, X_test, y_train, y_test
 
