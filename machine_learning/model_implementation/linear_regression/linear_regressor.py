@@ -4,11 +4,10 @@ import numpy as np
 from copy import deepcopy
 from base_classes.supervised_model import *
 from linear_regression_parameters import LinearRegressionParameters
-
 class LinearRegressor(SupervisedModel):
     def __init__(self, parameters: LinearRegressionParameters):
         self.__parameters = deepcopy(parameters)
-        self.__ws = deepcopy(self.__parameters.initial_weights)
+        self.__ws = np.array(deepcopy(self.__parameters.initial_weights))
         self.__b = deepcopy(self.__parameters.initial_bias)
         self.__train_loss = []
 
@@ -57,11 +56,18 @@ class LinearRegressor(SupervisedModel):
     def __batch_update(self, X_batch, y_batch, batch_size, correction_constant):
         y_pred = self.predict(X_batch)
         diff = y_batch - y_pred
-        partial_w = -(2/batch_size) * (diff @ X_batch.values) + 2 * self.__parameters.lambda_reg * self.__ws
+        partial_w = -(2/batch_size) * (diff @ X_batch.values) + self.__partial_l2() + self.__partial_l1()
         partial_b = -(2/batch_size) * np.sum(diff)
         self.__ws -= self.__parameters.alpha * partial_w * correction_constant
         self.__b -= self.__parameters.alpha * partial_b * correction_constant
 
+    def __partial_l2(self):
+        return 2 * self.__parameters.lambda_reg * self.__ws
 
-
+    def __partial_l1(self):
+        def sign(xs):
+            sign_lambda = lambda x: 1 if x > 0 else -1 if x < 0 else 0
+            return np.array(list(map(sign_lambda, xs)))
+                
+        return self.__parameters.gama_reg * sign(self.__ws)
 
