@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from models.parameters import Parameters
+from base_classes.parameters import Parameters
 
 class SupervisedModel(ABC):
     @abstractmethod
