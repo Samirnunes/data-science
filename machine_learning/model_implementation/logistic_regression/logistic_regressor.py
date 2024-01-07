@@ -4,7 +4,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 import numpy as np
 from copy import deepcopy
-from model_implementation.base_classes.supervised_model import SupervisedModel
+from base_classes.supervised_model import SupervisedModel
 from logistic_regression_parameters import LogisticRegressionParameters
 
 class LogisticRegressor(SupervisedModel):
