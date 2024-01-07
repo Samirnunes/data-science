@@ -2,4 +2,4 @@
 
 - Implementação de Modelos de Aprendizado de Máquina do Zero: `model_implementation`
 
-- Técnicas de Aprendizado de Máquina: `machine_learning_techniques`
+- Técnicas em Aprendizado de Máquina: `machine_learning_techniques`
