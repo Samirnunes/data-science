@@ -1,8 +1,7 @@
-import os
-import sys
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from abc import ABC, abstractmethod
-from base_classes.parameters import Parameters
+
+from machine_learning.model_implementation.base_classes.parameters import Parameters
+
 
 class SupervisedModel(ABC):
     @abstractmethod

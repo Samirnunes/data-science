@@ -1,11 +1,9 @@
-import os
-import sys
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 import numpy as np
 from copy import deepcopy
-from base_classes.supervised_model import *
-from linear_regression_parameters import LinearRegressionParameters
+from machine_learning.model_implementation.linear_regression.linear_regression_parameters import LinearRegressionParameters
+from machine_learning.model_implementation.base_classes.supervised_model import SupervisedModel
+
+
 class LinearRegressor(SupervisedModel):
     def __init__(self, parameters: LinearRegressionParameters):
         self._parameters = deepcopy(parameters)
