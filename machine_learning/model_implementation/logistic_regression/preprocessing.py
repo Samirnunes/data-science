@@ -1,4 +1,4 @@
-from machine_learning.model_implementation.utils.utils import min_max_scale
+from machine_learning.model_implementation.utils.model_implementation_utils import min_max_scale
 
 
 def pre_processing_pipeline(X_train, X_test, y_train, y_test):

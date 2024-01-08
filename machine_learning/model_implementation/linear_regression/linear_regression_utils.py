@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-from machine_learning.model_implementation.utils.utils import split_data, standard_scale, shuffle_data
+from machine_learning.model_implementation.utils.model_implementation_utils import split_data, standard_scale, shuffle_data
 
 
 def import_data():
