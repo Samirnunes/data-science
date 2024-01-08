@@ -58,7 +58,7 @@ class LinearRegressorDisplayer(LinearRegressor):
 
     def display_ws_history(self):
         data = self.__ws_history
-        index_slider = self.__index_slider(self.__ws_history)
+        index_slider = LinearRegressorDisplayer.index_slider(self.__ws_history)
 
         def update_plot(index):
             plt.figure(figsize=(12, 6))
@@ -70,10 +70,12 @@ class LinearRegressorDisplayer(LinearRegressor):
             plt.grid(True)
             plt.show()
 
-        display(index_slider, self.__output_plot(update_plot, index_slider))
+        display(index_slider, LinearRegressorDisplayer.output_plot(update_plot, index_slider))
 
-    def __index_slider(self, data):
+    @staticmethod
+    def index_slider(data):
         return widgets.IntSlider(value=0, min=0, max=len(data) - 1, description='Epoch')
 
-    def __output_plot(self, update_plot, index_slider):
+    @staticmethod
+    def output_plot(update_plot, index_slider):
         return widgets.interactive_output(update_plot, {'index': index_slider})
