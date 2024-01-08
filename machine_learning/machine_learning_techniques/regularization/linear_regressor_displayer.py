@@ -74,7 +74,6 @@ class LinearRegressorDisplayer(LinearRegressor):
         
         display(index_slider, self.__output_plot(update_plot, index_slider))
     
-
     def __index_slider(self, data):
         return widgets.IntSlider(value = 0, min = 0, max = len(data) - 1, description='Epoch')
     
