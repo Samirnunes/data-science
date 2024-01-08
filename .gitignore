@@ -5,3 +5,4 @@ eda_sql_univariate_tech_layoffs/data/tech_layoffs.db
 eda-air-pollution-sao-paulo/data/SP_poluicao_dados.csv
 air-pollution-sao-paulo-project/data/SP_poluicao_dados.csv
 __pycache__/
+.ipynb_checkpoints/
