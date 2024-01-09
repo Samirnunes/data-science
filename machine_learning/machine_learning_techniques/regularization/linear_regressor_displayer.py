@@ -47,8 +47,8 @@ class LinearRegressorDisplayer(LinearRegressor):
     def _batch_update_only_reg(self, X_batch, y_batch, batch_size, correction_constant):
         partial_w = self._partial_l2() + self._partial_l1()
         partial_b = 0
-        self._ws -= self._parameters.alpha * partial_w * correction_constant
-        self._b -= self._parameters.alpha * partial_b * correction_constant
+        self._ws -= self._parameters.alpha * partial_w
+        self._b -= self._parameters.alpha * partial_b
 
     def get_ws_history(self):
         return self.__ws_history

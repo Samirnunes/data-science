@@ -11,10 +11,9 @@ def import_data():
 
 
 def split_data(df):
-    label = ["Exited"]
-    X = df.loc[:, ~df.columns.isin(label)]
-    y = df[label]
-    X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=0.8, random_state=0)
+    X = df.loc[:, ~df.columns.isin(["Exited"])]
+    y = df["Exited"]
+    X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=0.8, shuffle=False)
     return X_train, X_test, y_train, y_test
 
 
