@@ -1,6 +1,6 @@
 # Implementação de Modelos de Aprendizado de Máquina do Zero
 
-# 1) Modelo de Regressão Linear via Gradiente Descendente Estocástico com Mini-lotes
+## 1) Modelo de Regressão Linear via Gradiente Descendente Estocástico com Mini-lotes
 
 - Artigo no Medium: https://medium.com/@samir.silva12342/implementação-de-modelos-do-zero-regressão-linear-b3cdb9de1a24
  
@@ -8,7 +8,7 @@ A regressão linear é um dos modelos mais conhecidos no contexto do aprendizado
 
 Os códigos desenvolvem passo-a-passo o modelo de regressão linear seguindo uma lógica para aprendizado de sua aplicação e implementação, seguindo as boas práticas utilizadas no aprendizado de máquina.
 
-## Tecnologias e Bibliotecas Utilizadas
+### Tecnologias e Bibliotecas Utilizadas
 
 - Jupyter Notebook
 - Python
