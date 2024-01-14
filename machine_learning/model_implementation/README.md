@@ -1,4 +1,4 @@
-# Model Implementation From Zero: Linear Regression
+# Model Implementation From Scratch: Linear Regression
 
 ## 1) Linear Regression Model with Stochastic Gradiend Descent with Mini-Batches
 
