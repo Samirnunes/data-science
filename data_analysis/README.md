@@ -2,6 +2,8 @@
 
 ## 1) Análise Exploratória de Dados sobre a Poluição Atmosférica no Estado de São Paulo e Aplicação de Modelos de Regressão para Estimar a Concentração de NO2 em São José dos Campos (SP)
 
+- Página do meu perfil no Kaggle associada: https://www.kaggle.com/code/samirnunesdasilva/eda-polui-o-do-ar-no-estado-de-s-o-paulo
+
 <p align="center">
     <img width="400" src="https://github.com/Samirnunes/data-science/blob/main/data_analysis/air_pollution/images/iema_logo.png" alt="Material Bread logo">
 <p>
@@ -11,8 +13,6 @@ Notebooks da pasta `air-pollution` e seus assuntos:
 - `eda.ipynb`: Análise Exploratória de Dados;
 
 - `prediction.ipynb`: Machine Learning (Random Forest e XGBoost).    
-
-Página do meu perfil no Kaggle associada: https://www.kaggle.com/code/samirnunesdasilva/eda-polui-o-do-ar-no-estado-de-s-o-paulo
 
 Neste repositório, realiza-se uma análise exploratória (EDA - Exploratory Data Analysis) acerca dos dados de poluição atmosférica no estado de São Paulo, no Brasil, e a utilização de modelos de aprendizado de máquina para prever a concentração de NO2 em São José dos Campos (SP) com base na hora e na concentração de NO na mesma hora do dia. Os dados foram retirados da Plataforma Qualidade do Ar, do Instituto de Energia e Meio Ambiente (IEMA) - uma organização sem fins lucrativos brasileira, fundada em 2006 e com sede em São Paulo (SP) que, segundo seu site, "tem contribuído para a melhoria da qualidade ambiental de forma socialmente justa e sustentável por meio da geração e da sistematização de conhecimento técnico e científico, subsidiando a formulação e a avaliação de políticas públicas nas áreas de energia elétrica e de transportes".
 
