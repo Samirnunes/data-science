@@ -2,11 +2,11 @@
 
 ## 1) Análise Exploratória de Dados sobre a Poluição Atmosférica no Estado de São Paulo e Aplicação de Modelos de Regressão para Estimar a Concentração de NO2 em São José dos Campos (SP)
 
-- Página do meu perfil no Kaggle associada: https://www.kaggle.com/code/samirnunesdasilva/eda-polui-o-do-ar-no-estado-de-s-o-paulo
-
 <p align="center">
     <img width="400" src="https://github.com/Samirnunes/data-science/blob/main/data_analysis/air_pollution/images/iema_logo.png" alt="Material Bread logo">
 <p>
+
+- Página do meu perfil no Kaggle associada: https://www.kaggle.com/code/samirnunesdasilva/eda-polui-o-do-ar-no-estado-de-s-o-paulo
     
 Notebooks da pasta `air-pollution` e seus assuntos:
 
