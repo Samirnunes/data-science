@@ -16,11 +16,11 @@ Os códigos desenvolvem passo-a-passo o modelo de regressão linear seguindo uma
 - Numpy
 - Matplotlib
 
-# 2) Regressão Logística: uma aplicação na detecção de pacientes de alto risco da Covid-19
+## 2) Regressão Logística: uma aplicação na detecção de pacientes de alto risco da Covid-19
 
 A regressão logística é um dos modelos de Machine Learning mais conhecidos e é aplicada quando queremos prever classificações através de probabilidades. Seu princípio envolve a utilização da função de ativação sigmoide na soma ponderada dos valores das features para obtenção de probabilidades que indicarão, ao serem comparadas com um threshold (limiar), qual a classificação final do target naquela situação.
 
-## Tecnologias e Bibliotecas Utilizadas
+### Tecnologias e Bibliotecas Utilizadas
 
 - Jupyter Notebook
 - Python
