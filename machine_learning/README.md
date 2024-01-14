@@ -1,5 +1,5 @@
-# Projetos de Aprendizado de Máquina
+# Machine Learning Projects
 
-- Implementação de Modelos de Aprendizado de Máquina do Zero: `model_implementation`
+- Model Implementation From Zero: `model_implementation`
 
-- Técnicas em Aprendizado de Máquina: `machine_learning_techniques`
+- Machine Learning Techniques: `machine_learning_techniques`
