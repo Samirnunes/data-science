@@ -1,0 +1,8 @@
+- Unsupervised learning (learning from unlabeled data)
+- PCA (Principal Component Analysis)
+- K-means (Clustering)
+
+- Reference: 
+https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis
+https://neptune.ai/blog/customer-segmentation-using-machine-learning 
+https://whites.agency/blog/how-to-use-machine-learning-for-customer-segmentation/
