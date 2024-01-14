@@ -1,4 +1,4 @@
-# Data Science Project
+# Data Science Projects
 
 Each folder has a `README` containing explanations about your projects.
 
