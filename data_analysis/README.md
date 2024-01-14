@@ -1,6 +1,6 @@
 # Projetos de Análise de Dados
 
-# 1) Análise Exploratória de Dados sobre a Poluição Atmosférica no Estado de São Paulo e Aplicação de Modelos de Regressão para Estimar a Concentração de NO2 em São José dos Campos (SP)
+## 1) Análise Exploratória de Dados sobre a Poluição Atmosférica no Estado de São Paulo e Aplicação de Modelos de Regressão para Estimar a Concentração de NO2 em São José dos Campos (SP)
 
 <p align="center">
     <img width="400" src="https://github.com/Samirnunes/data-science/blob/main/data_analysis/air_pollution/images/iema_logo.png" alt="Material Bread logo">
@@ -18,7 +18,7 @@ Neste repositório, realiza-se uma análise exploratória (EDA - Exploratory Dat
 
 Fonte dos dados: https://energiaeambiente.org.br/qualidadedoar#secao-14
 
-## Dados e Descrições
+### Dados e Descrições
 
 No sentido de desenvolver uma visão geral da situação da poluição atmosférica em todo o estado de São Paulo, justificando, por exemplo, seus impactos na saúde das pessoas, buscou-se os dados mais atualizados sobre as medições das concentrações de poluentes em diversas localidades e durante um longo período de tempo (início de 2015 até o fim de 2021) de forma a se verificar a evolução desse grande problema ambiental e de saúde no estado. O resultado dessa busca foi um conjunto de dados com mais de 10 milhões de linhas englobando 87 estações de medição distintas distribuídas ao longo do estado de São Paulo que podem medir a concentração de 9 poluentes: MP10, O3, NO2, MP2.5, CO, SO2, NO, FMC e PTS. 
 
@@ -55,7 +55,7 @@ Suas colunas possuem as seguintes descrições:
 
 - `Tipo`: como foi realizada a medição (de forma automática ou manual).
 
-## Tecnologias e Bibliotecas Utilizadas
+### Tecnologias e Bibliotecas Utilizadas
 
 - Jupyter Notebook
 - Python
@@ -64,7 +64,7 @@ Suas colunas possuem as seguintes descrições:
 - Matplotlib
 - Scikit-Learn (modelos Random Forest e XGBoost)
  
-# 2) Análise Univariada em SQL: Layoffs nas Empresas de Tecnologia (2022-2023)
+## 2) Análise Univariada em SQL: Layoffs nas Empresas de Tecnologia (2022-2023)
 
 <p align="center">
     <img width="300" src="https://github.com/Samirnunes/data-science/blob/main/data_analysis/tech_layoffs/images/sqlite.jpg" alt="Material Bread logo">
@@ -84,7 +84,7 @@ o contexto da análise e focar nas habilidades técnicas envolvendo o banco de d
 preparação dos dados, criação do banco de dados e consultas a esse banco de dados utilizando a biblioteca
 sqlite3 do Python em associação à biblioteca Pandas.
 
-## Dados e Descrições
+### Dados e Descrições
 
 A seguir, encontram-se as primeiras linhas do conjunto de dados:
 
@@ -114,7 +114,7 @@ Suas colunas possuem as seguintes descrições:
 
 - `additional_notes`: notas adicionais sobre o plano de layoffs da empresa.
 
-## Tecnologias e Bibliotecas Utilizadas
+### Tecnologias e Bibliotecas Utilizadas
 
 - Jupyter Notebook
 - SQL (SQLite)
