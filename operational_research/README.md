@@ -1,6 +1,6 @@
 # Projetos de Pesquisa Operacional
 
-# Otimização da Escala Semanal de Atendimento das Lojas Renner: Solução de um Problema de Roteamento de Veículos com Janelas de Tempo, Descanso, Turnos e Frota Heterogênea através da Heurística do Vizinho Mais Próximo
+## Otimização da Escala Semanal de Atendimento das Lojas Renner: Solução de um Problema de Roteamento de Veículos com Janelas de Tempo, Descanso, Turnos e Frota Heterogênea através da Heurística do Vizinho Mais Próximo
 
 Link para o relatório: https://www.overleaf.com/read/ycpxqskccnys
 
@@ -18,7 +18,7 @@ O projeto escolhido para realização no contexto da disciplina de PO-202 foi o 
 
 ![alt text](https://github.com/Samirnunes/data-science/blob/main/operational_research/images/restrictions.PNG)
 
-## Tecnologias e Bibliotecas Utilizadas
+### Tecnologias e Bibliotecas Utilizadas
 
 - Jupyter Notebook
 - Google Colab
