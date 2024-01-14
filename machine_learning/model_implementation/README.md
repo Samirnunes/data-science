@@ -1,14 +1,14 @@
-# Implementação de Modelos de Aprendizado de Máquina do Zero
+# Model Implementation From Zero: Linear Regression
 
-## 1) Modelo de Regressão Linear via Gradiente Descendente Estocástico com Mini-lotes
+## 1) Linear Regression Model with Stochastic Gradiend Descent with Mini-Batches
 
-- Artigo no Medium: https://medium.com/@samir.silva12342/implementação-de-modelos-do-zero-regressão-linear-b3cdb9de1a24
+- Article on Medium: https://medium.com/@samir.silva12342/implementação-de-modelos-do-zero-regressão-linear-b3cdb9de1a24
  
-A regressão linear é um dos modelos mais conhecidos no contexto do aprendizado de máquina, resumindo-se à adequação de um modelo linear a dados cujos preditores (features) são altamente correlacionados com o valor que se quer estimar (target). Ela pode ser implementada através do algoritmo de Gradiente Descendente Estocástico: um algoritmo iterativo de otimização dos parâmetros da função de regressão baseado na minimização da função de custo (ou de perda). Essa minimização é feita com o cálculo do gradiente negativo da função de custo em relação aos parâmetros da função de regressão (weights e bias).
+The linear regression is one of the most well-known models in the context of machine learning, involving fitting a linear model to data whose predictors (features) are highly correlated with the target value to be estimated. It can be implemented through the Stochastic Gradient Descent algorithm: an iterative optimization algorithm for the parameters of the regression function based on minimizing the cost (or loss) function. This minimization is achieved by calculating the negative gradient of the cost function with respect to the parameters of the regression function (weights and bias).
 
-Os códigos desenvolvem passo-a-passo o modelo de regressão linear seguindo uma lógica para aprendizado de sua aplicação e implementação, seguindo as boas práticas utilizadas no aprendizado de máquina.
+The codes step-by-step develop the linear regression model, following a logical progression for learning its application and implementation. They adhere to best practices commonly used in machine learning.
 
-### Tecnologias e Bibliotecas Utilizadas
+### Technologies and Libraries
 
 - Jupyter Notebook
 - Python
@@ -16,11 +16,11 @@ Os códigos desenvolvem passo-a-passo o modelo de regressão linear seguindo uma
 - Numpy
 - Matplotlib
 
-## 2) Regressão Logística: uma aplicação na detecção de pacientes de alto risco da Covid-19
+## 2) Logistic Regression: An Application in High-Risk COVID-19 Patient Detection
 
-A regressão logística é um dos modelos de Machine Learning mais conhecidos e é aplicada quando queremos prever classificações através de probabilidades. Seu princípio envolve a utilização da função de ativação sigmoide na soma ponderada dos valores das features para obtenção de probabilidades que indicarão, ao serem comparadas com um threshold (limiar), qual a classificação final do target naquela situação.
+Logistic regression is one of the most well-known Machine Learning models and is applied when we want to predict classifications through probabilities. Its principle involves the use of the sigmoid activation function in the weighted sum of feature values to obtain probabilities. These probabilities, when compared to a threshold, indicate the final classification of the target in that situation.
 
-### Tecnologias e Bibliotecas Utilizadas
+### Technologies and Libraries
 
 - Jupyter Notebook
 - Python
