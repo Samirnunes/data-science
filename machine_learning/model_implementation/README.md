@@ -1,6 +1,8 @@
 # Implementação de Modelos de Aprendizado de Máquina do Zero
 
 # 1) Modelo de Regressão Linear via Gradiente Descendente Estocástico com Mini-lotes
+
+- Artigo no Medium: https://medium.com/@samir.silva12342/implementação-de-modelos-do-zero-regressão-linear-b3cdb9de1a24
  
 A regressão linear é um dos modelos mais conhecidos no contexto do aprendizado de máquina, resumindo-se à adequação de um modelo linear a dados cujos preditores (features) são altamente correlacionados com o valor que se quer estimar (target). Ela pode ser implementada através do algoritmo de Gradiente Descendente Estocástico: um algoritmo iterativo de otimização dos parâmetros da função de regressão baseado na minimização da função de custo (ou de perda). Essa minimização é feita com o cálculo do gradiente negativo da função de custo em relação aos parâmetros da função de regressão (weights e bias).
 
