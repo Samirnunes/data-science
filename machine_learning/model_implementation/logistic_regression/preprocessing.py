@@ -2,7 +2,7 @@ from machine_learning.model_implementation.utils.model_implementation_utils impo
 
 
 def pre_processing_pipeline(X_train, X_test, y_train, y_test):
-    '''Applies each pre-processing function in the training and test datas.'''
+    """Applies each pre-processing function in the training and test datas."""
     boolean_features = ['PNEUMONIA', 'PREGNANT', 'DIABETES', 'COPD', 'ASTHMA', 'INMSUPR', 'HIPERTENSION',
                        'CARDIOVASCULAR', 'RENAL_CHRONIC', 'OTHER_DISEASE', 'OBESITY', 'TOBACCO',
                        'INTUBED', 'ICU']
@@ -36,9 +36,9 @@ def pre_processing_pipeline(X_train, X_test, y_train, y_test):
     return X_train, X_test, y_train, y_test
 
 def create_boolean_columns(data, boolean_features):
-    '''Given a Pandas DataFrame and a list of string feature names, this function creates
+    """Given a Pandas DataFrame and a list of string feature names, this function creates
     new boolean columns for each feature in the list. The new columns are 1 if the value
-    of the feature is less than 3, and 0 otherwise.'''
+    of the feature is less than 3, and 0 otherwise."""
     new_data = data.copy()
     for feature in boolean_features:
         new_data.loc[new_data[feature] < 3, f'is_{feature}_defined'] = 1
@@ -46,17 +46,17 @@ def create_boolean_columns(data, boolean_features):
     return new_data
 
 def correct_pregnant_for_men(data):
-    '''Given a Pandas DataFrame, this function sets the value of the 'PREGNANT' feature to 0
-    for all rows where the value of the 'SEX' feature is 2 (corresponding to men).'''
+    """Given a Pandas DataFrame, this function sets the value of the 'PREGNANT' feature to 0
+    for all rows where the value of the 'SEX' feature is 2 (corresponding to men)."""
     new_data = data.copy()
     new_data.loc[new_data['SEX'] == 2, 'PREGNANT'] = 0
     return new_data
 
 def mode_imputation(data, pre_imputation_train_data, boolean_features):
-    '''Given a Pandas DataFrame, a Pandas DataFrame with the original training data used to
+    """Given a Pandas DataFrame, a Pandas DataFrame with the original training data used to
     create the model, and a list of string feature names, this function imputes the mode
     value for each feature in the list for all rows where the value of the feature is 3
-    or above (corresponding to missing values).'''
+    or above (corresponding to missing values)."""
     new_data = data.copy()
     for feature in boolean_features:
         most_common = pre_imputation_train_data[feature].mode()[0]
@@ -64,8 +64,8 @@ def mode_imputation(data, pre_imputation_train_data, boolean_features):
     return new_data
 
 def intubed_and_icu_imputation(data):
-    '''Given a Pandas DataFrame, this function sets the value of the 'INTUBED' and 'ICU'
-    features to 3 (corresponding to missing values) for all rows where the value is 3 or above.'''
+    """Given a Pandas DataFrame, this function sets the value of the 'INTUBED' and 'ICU'
+    features to 3 (corresponding to missing values) for all rows where the value is 3 or above."""
     new_data = data.copy()
     more_nan_features = ['INTUBED', 'ICU']
     for feature in more_nan_features:
@@ -73,12 +73,12 @@ def intubed_and_icu_imputation(data):
     return new_data
 
 def covid_degree(data):
-    '''takes in a pandas DataFrame and returns a copy of the DataFrame with an added column called 'covid_degree'.
-    The 'covid_degree' column is based on the 'CLASSIFICATION_FINAL' column in the input DataFrame. 
-    If the value in the 'CLASSIFICATION_FINAL' column is greater than or equal to 4, the corresponding value in the 'covid_degree' column is 0. 
-    If the value in the 'CLASSIFICATION_FINAL' column is less than 4, the corresponding value in the 'covid_degree' column 
-    is the same as the value in the 'CLASSIFICATION_FINAL' column. 
-    The 'CLASSIFICATION_FINAL' column is then dropped from the DataFrame.'''
+    """takes in a pandas DataFrame and returns a copy of the DataFrame with an added column called 'covid_degree'.
+    The 'covid_degree' column is based on the 'CLASSIFICATION_FINAL' column in the input DataFrame.
+    If the value in the 'CLASSIFICATION_FINAL' column is greater than or equal to 4, the corresponding value in the 'covid_degree' column is 0.
+    If the value in the 'CLASSIFICATION_FINAL' column is less than 4, the corresponding value in the 'covid_degree' column
+    is the same as the value in the 'CLASSIFICATION_FINAL' column.
+    The 'CLASSIFICATION_FINAL' column is then dropped from the DataFrame."""
     new_data = data.copy()
     new_data.loc[new_data['CLASSIFICATION_FINAL'] >= 4, 'covid_degree'] = 0
     new_data.loc[new_data['CLASSIFICATION_FINAL'] < 4, 'covid_degree'] = new_data['CLASSIFICATION_FINAL']
@@ -86,8 +86,8 @@ def covid_degree(data):
     return new_data
 
 def binary_change(data):
-    '''This function takes in a pandas DataFrame or a list or numpy array 
-    and returns a copy of the DataFrame or array with all 2's replaced with 0's.'''
+    """This function takes in a pandas DataFrame or a list or numpy array
+    and returns a copy of the DataFrame or array with all 2's replaced with 0's."""
     new_data = data.copy()
     new_data.loc[new_data == 2] = 0
     return new_data

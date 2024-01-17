@@ -9,5 +9,5 @@ class LinearRegressionParameters(Parameters):
         self.batch_size = 10
         self.alpha = 0.1
         self.lambda_reg = 0.1  # L2 regularization
-        self.gama_reg = 0.0  # L1 regularization
+        self.gamma_reg = 0.0  # L1 regularization
         self.random_state = 0

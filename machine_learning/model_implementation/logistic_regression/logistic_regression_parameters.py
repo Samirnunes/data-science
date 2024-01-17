@@ -8,5 +8,6 @@ class LogisticRegressionParameters(Parameters):
         self.epochs = 100
         self.batch_size = 10
         self.alpha = 0.1
-        self.lambda_reg = 0.1
+        self.lambda_reg = 0.0
+        self.gamma_reg = 0.1
         self.random_state = 0

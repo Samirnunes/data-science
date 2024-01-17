@@ -69,4 +69,4 @@ class LinearRegressor(SupervisedModel):
         def sign(xs):
             sign_lambda = lambda x: 1 if x > 0 else -1 if x < 0 else 0
             return np.array(list(map(sign_lambda, xs)))
-        return self._parameters.gama_reg * sign(self._ws)
+        return self._parameters.gamma_reg * sign(self._ws)
