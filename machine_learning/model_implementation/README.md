@@ -28,3 +28,7 @@ Logistic regression is one of the most well-known Machine Learning models and is
 - Sklearn
 - Numpy
 - Matplotlib
+
+## 3) K-means
+
+IN PROGRESS...
