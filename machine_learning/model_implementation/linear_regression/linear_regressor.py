@@ -41,6 +41,9 @@ class LinearRegressor(SupervisedModel):
     def _sgd_update(self, X_train, y_train):
         total_rows = len(y_train)
         batch_rows = 0
+        random_indices = np.random.permutation(len(y_train))
+        X_train_shuffled = X_train.iloc[random_indices].reset_index(drop=True).copy()
+        y_train_shuffled = y_train.iloc[random_indices].reset_index(drop=True).copy()
         while batch_rows != total_rows:
             initial_index = batch_rows
             if total_rows - batch_rows > self._parameters.batch_size:
@@ -49,8 +52,8 @@ class LinearRegressor(SupervisedModel):
             else:
                 final_index = total_rows
                 batch_rows = total_rows
-            X_batch = X_train.iloc[initial_index:final_index].copy()
-            y_batch = y_train.iloc[initial_index:final_index].copy()
+            X_batch = X_train_shuffled.iloc[initial_index:final_index].copy()
+            y_batch = y_train_shuffled.iloc[initial_index:final_index].copy()
             correction_constant = self._parameters.batch_size / (final_index - initial_index)
             self._batch_update(X_batch, y_batch, self._parameters.batch_size, correction_constant)
 
