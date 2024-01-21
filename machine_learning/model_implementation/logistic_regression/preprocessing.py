@@ -1,7 +1,7 @@
 from machine_learning.model_implementation.utils.model_implementation_utils import min_max_scale
 
 
-def pre_processing_pipeline(X_train, X_test, y_train, y_test):
+def preprocessing_pipeline(X_train, X_test, y_train, y_test):
     """Applies each pre-processing function in the training and test datas."""
     boolean_features = ['PNEUMONIA', 'PREGNANT', 'DIABETES', 'COPD', 'ASTHMA', 'INMSUPR', 'HIPERTENSION',
                        'CARDIOVASCULAR', 'RENAL_CHRONIC', 'OTHER_DISEASE', 'OBESITY', 'TOBACCO',
