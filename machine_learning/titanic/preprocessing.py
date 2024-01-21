@@ -45,14 +45,16 @@ class ColumnDropper(BaseEstimator, TransformerMixin):
 
 class ImputerTransformer(BaseEstimator, TransformerMixin):
     def __init__(self, strategy='mean'):
+        self.imputer = None
         self.strategy = strategy
 
     def fit(self, X, y=None):
+        self.imputer = SimpleImputer(strategy=self.strategy)
+        self.imputer.fit(X)
         return self
 
     def transform(self, X, y=None):
-        imputer = SimpleImputer(strategy=self.strategy)
-        return pd.DataFrame(imputer.fit_transform(X), columns=X.columns)
+        return pd.DataFrame(self.imputer.transform(X), columns=X.columns)
 
 
 class ScalerTransformer(BaseEstimator, TransformerMixin):
@@ -61,9 +63,6 @@ class ScalerTransformer(BaseEstimator, TransformerMixin):
         self.strategy = strategy
 
     def fit(self, X, y=None):
-        return self
-
-    def transform(self, X, y=None):
         if self.strategy == 'min_max':
             self.scaler = MinMaxScaler()
         elif self.strategy == 'standard':
@@ -72,7 +71,11 @@ class ScalerTransformer(BaseEstimator, TransformerMixin):
             self.scaler = RobustScaler()
         else:
             self.scaler = StandardScaler()
-        return pd.DataFrame(self.scaler.fit_transform(X), columns=X.columns)
+        self.scaler.fit(X)
+        return self
+
+    def transform(self, X, y=None):
+        return pd.DataFrame(self.scaler.transform(X), columns=X.columns)
 
 
 class AgeClassifier(BaseEstimator, TransformerMixin):
@@ -125,12 +128,9 @@ class FareClassifier(BaseEstimator, TransformerMixin):
 
 class TitleExtractor(BaseEstimator, TransformerMixin):
     def __init__(self):
-        pass
+        self.ordinal_encoder = None
 
     def fit(self, X, y=None):
-        return self
-
-    def transform(self, X, y=None):
         def extract_title(name):
             if type(name) == float:
                 return 'Undefined'
@@ -140,55 +140,95 @@ class TitleExtractor(BaseEstimator, TransformerMixin):
         X['Title'] = X['Name'].apply(extract_title)
         title_in_order = ['Sir', 'theCountess', 'Don', 'Capt', 'Rev', 'Col', 'Lady', 'Major', 'Dr', 'Mlle', 'Ms', 'Mme',
                           'Mrs', 'Miss', 'Master', 'Mr', 'Jonkheer', 'Undefined'][::-1]
-        ordinal_encoder = OrdinalEncoder(categories=[title_in_order], unknown_value=len(title_in_order),
+        self.ordinal_encoder = OrdinalEncoder(categories=[title_in_order], unknown_value=len(title_in_order),
                                          handle_unknown='use_encoded_value')
-        X['TitleImportance'] = ordinal_encoder.fit_transform(X[['Title']])
+        self.ordinal_encoder.fit(X[['Title']])
+        return self
+
+    def transform(self, X, y=None):
+        def extract_title(name):
+            if type(name) == float:
+                return 'Undefined'
+            else:
+                return name.split(',')[1].split('.')[0].replace(" ", "")
+        X['Title'] = X['Name'].apply(extract_title)
+        X['TitleImportance'] = self.ordinal_encoder.transform(X[['Title']])
         return X.drop(columns=['Title', 'Name'])
 
 
 class CabinClassifier(BaseEstimator, TransformerMixin):
-    def __init__(self):
-        pass
+    def __init__(self, ordinal=True):
+        self.letters_in_order = None
+        self.ordinal = ordinal
+        self.ordinal_encoder = None
+        self.one_hot_encoder = None
 
     def fit(self, X, y=None):
+        def extract_cabin_letter(cabin):
+            return str(cabin)[0]
+        X['CabinLetter'] = X['Cabin'].apply(extract_cabin_letter)
+        self.letters_in_order = ['n', 'T', 'G', 'F', 'E', 'D', 'C', 'B', 'A']
+        if self.ordinal:
+            self.ordinal_encoder = OrdinalEncoder(categories=[self.letters_in_order])
+            X['CabinClass'] = self.ordinal_encoder.fit(X[['CabinLetter']])
+        else:
+            self.one_hot_encoder = OneHotEncoder()
+            self.one_hot_encoder.fit(X[['CabinLetter']])
         return self
 
     def transform(self, X, y=None):
         def extract_cabin_letter(cabin):
             return str(cabin)[0]
-
         X['CabinLetter'] = X['Cabin'].apply(extract_cabin_letter)
-        letters_in_order = ['n', 'T', 'G', 'F', 'E', 'D', 'C', 'B', 'A']
-        ordinal_encoder = OrdinalEncoder(categories=[letters_in_order])
-        X['CabinClass'] = ordinal_encoder.fit_transform(X[['CabinLetter']])
-        return X.drop(['Cabin', 'CabinLetter'], axis=1)
+        self.letters_in_order = ['n', 'T', 'G', 'F', 'E', 'D', 'C', 'B', 'A']
+        if self.ordinal:
+            X['CabinClass'] = self.ordinal_encoder.transform(X[['CabinLetter']])
+            return X.drop(['Cabin', 'CabinLetter'], axis=1)
+        else:
+            one_hot_result = pd.DataFrame(self.one_hot_encoder.transform(X[['CabinLetter']]).toarray(),
+                                          columns=self.one_hot_encoder.categories_[0])
+            return pd.concat([X.drop(['Cabin', 'CabinLetter'], axis=1), one_hot_result], axis=1)
+
 
 
 class EmbarkClassifier(BaseEstimator, TransformerMixin):
-    def __init__(self):
-        pass
+    def __init__(self, ordinal=True):
+        self.ordinal = ordinal
+        self.ordinal_encoder = None
+        self.one_hot_encoder = None
 
     def fit(self, X, y=None):
+        X['Embarked'] = X['Embarked'].fillna(X['Embarked'].mode()[0])
+        if self.ordinal:
+            self.ordinal_encoder = OrdinalEncoder(categories=[['S', 'Q', 'C']])  # PoorerPlace, MediumPlace, RicherPlace
+            X['EmbarkClass'] = self.ordinal_encoder.fit(X[['Embarked']])
+        else:
+            self.one_hot_encoder = OneHotEncoder()
+            self.one_hot_encoder.fit(X[['Embarked']])
         return self
 
     def transform(self, X, y=None):
         X['Embarked'] = X['Embarked'].fillna(X['Embarked'].mode()[0])
-        ordinal_encoder = OrdinalEncoder(categories=[['S', 'Q', 'C']])  # PoorerPlace, MediumPlace, RicherPlace
-        X['EmbarkClass'] = ordinal_encoder.fit_transform(X[['Embarked']])
-        return X.drop(['Embarked'], axis=1)
-
+        if self.ordinal:
+            X['EmbarkClass'] = self.ordinal_encoder.transform(X[['Embarked']])
+            return X.drop(['Embarked'], axis=1)
+        else:
+            one_hot_result = pd.DataFrame(self.one_hot_encoder.transform(X[['Embarked']]).toarray(),
+                                          columns=self.one_hot_encoder.categories_[0])
+            return pd.concat([X.drop('Embarked', axis=1), one_hot_result], axis=1)
 
 class SexExtractor(BaseEstimator, TransformerMixin):
     def __init__(self):
-        pass
+        self.one_hot_encoder = None
 
     def fit(self, X, y=None):
+        self.one_hot_encoder = OneHotEncoder()
+        self.one_hot_encoder.fit(X[['Sex']])
         return self
 
     def transform(self, X, y=None):
-        one_hot_encoder = OneHotEncoder()
-        one_hot_df = pd.DataFrame(one_hot_encoder.fit_transform(X[['Sex']]).toarray(),
-                                  columns=one_hot_encoder.categories_[0])
+        one_hot_df = pd.DataFrame(self.one_hot_encoder.transform(X[['Sex']]).toarray(),
+                                  columns=self.one_hot_encoder.categories_[0])
         X = pd.concat([X.drop(['Sex'], axis=1), one_hot_df.drop(['female'], axis=1)], axis=1)
         return X.rename(columns={'male': 'Male'})
 
