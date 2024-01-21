@@ -7,3 +7,7 @@
 ## Regularization
 
 - Article on Medium: https://medium.com/@samir.silva12342/técnicas-em-aprendizado-de-máquina-regularização-492e39433aca
+
+## Pipelines
+
+- Article on Medium: https://medium.com/@samir.silva12342/machine-learning-techniques-pipelines-7a59c098639b
