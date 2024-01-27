@@ -33,3 +33,30 @@ In this project, I mention and describe the most commonly used types of scaling 
 - Article on Medium: https://medium.com/@samir.silva12342/técnicas-em-aprendizado-de-máquina-regularização-492e39433aca
 
 To visualize the effects of L1 and L2 regularizations in a machine learning model, I’ve created a code based on my implementation from scratch of Linear Regression.
+
+### Some of the Results
+
+- Linear Regression with L1 Regularization
+
+<p align="center">
+    <img width="300" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/regularization/images/linear-l1-50.PNG" alt="Material Bread logo">
+<p>
+
+- Linear Regression with L2 Regularization
+
+<p align="center">
+    <img width="300" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/regularization/images/linear-l2-20.PNG" alt="Material Bread logo">
+<p>
+
+- Only L1 Regularization
+
+<p align="center">
+    <img width="300" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/regularization/images/l1-50.PNG" alt="Material Bread logo">
+<p>
+
+- Only L2 Regularization
+
+<p align="center">
+    <img width="300" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/regularization/images/l2-20.PNG" alt="Material Bread logo">
+<p>
+
