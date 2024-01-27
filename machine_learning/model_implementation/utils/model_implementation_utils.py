@@ -36,8 +36,15 @@ def split_data(X, y, test_split_factor: float, val_split_factor: float):
     return X_train, X_val, X_test, y_train, y_val, y_test
 
 
-def loss(model, X_test, y_test):
+def quadratic_loss(model, X_test, y_test):
     return np.mean((model.predict(X_test) - y_test) ** 2)
+
+
+def log_loss(self, X_test, y_test):
+    predictions = self.predict(X_test)
+    fst_term = y_test * np.log(predictions)
+    sec_term = (1 - y_test) * np.log(1 - predictions)
+    return -np.mean(fst_term + sec_term)
 
 
 def plot_correlations(X_train, y_train):
