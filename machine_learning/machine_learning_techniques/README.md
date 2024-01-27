@@ -19,13 +19,13 @@ In this project, I mention and describe the most commonly used types of scaling 
 - Standard Scaling
 
 <p align="center">
-    <img width="300" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/scaling/images/std_formula.PNG" alt="Material Bread logo">
+    <img width="250" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/scaling/images/std_formula.PNG" alt="Material Bread logo">
 <p>
 
 - Robust
 
 <p align="center">
-    <img width="250" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/scaling/images/robust_formula.PNG" alt="Material Bread logo">
+    <img width="300" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/scaling/images/robust_formula.PNG" alt="Material Bread logo">
 <p>
 
 ## Regularization
