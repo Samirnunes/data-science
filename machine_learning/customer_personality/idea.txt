@@ -1,5 +1,4 @@
 - Unsupervised learning (learning from unlabeled data)
-- PCA (Principal Component Analysis)
 - K-means (Clustering)
 
 - Reference: 
