@@ -14,9 +14,9 @@ Samir Nunes da Silva (T25 - ITA): https://www.linkedin.com/in/samir-nunes-da-sil
  
 O projeto escolhido para realização no contexto da disciplina de PO-202 foi o case proposto pela loja de roupas Renner, que se trata do clássico Vehicle Routing Problem com a adição de Time Windows, tempos de descanso, dias da semana e restrições envolvendo turnos. Uma breve descrição do problema e a série principal de restrições associadas são mostradas, respectivamente, nas figuras a seguir:
 
-![alt text](https://github.com/Samirnunes/data-science/blob/main/operational_research/images/case.PNG)
+![alt text](https://github.com/Samirnunes/data-science/blob/main/operational_research/renner_project/images/case.PNG)
 
-![alt text](https://github.com/Samirnunes/data-science/blob/main/operational_research/images/restrictions.PNG)
+![alt text](https://github.com/Samirnunes/data-science/blob/main/operational_research/renner_project/images/restrictions.PNG)
 
 ### Tecnologias e Bibliotecas Utilizadas
 
