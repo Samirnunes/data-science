@@ -1,3 +1,0 @@
-# Customer Personality
-
-IN PROGRESS...

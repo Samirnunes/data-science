@@ -1,7 +1,0 @@
-- Unsupervised learning (learning from unlabeled data)
-- K-means (Clustering)
-
-- Reference: 
-https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis
-https://neptune.ai/blog/customer-segmentation-using-machine-learning 
-https://whites.agency/blog/how-to-use-machine-learning-for-customer-segmentation/
