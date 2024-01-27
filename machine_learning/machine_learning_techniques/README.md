@@ -8,6 +8,26 @@ One of the most important transformations that needs to be applied to training a
 
 In this project, I mention and describe the most commonly used types of scaling in machine learning. Besides, I show an example of Python code using them.
 
+### Featured Scalings
+
+- Min-Max Scaling
+
+<p align="center">
+    <img width="600" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/scaling/images/min_max_formula.PNG" alt="Material Bread logo">
+<p>
+
+- Standard Scaling
+
+<p align="center">
+    <img width="600" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/scaling/images/std_formula.PNG" alt="Material Bread logo">
+<p>
+
+- Robust
+
+<p align="center">
+    <img width="600" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/scaling/images/robust_formula.PNG" alt="Material Bread logo">
+<p>
+
 ## Regularization
 
 - Article on Medium: https://medium.com/@samir.silva12342/técnicas-em-aprendizado-de-máquina-regularização-492e39433aca
