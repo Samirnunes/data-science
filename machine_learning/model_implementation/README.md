@@ -8,6 +8,32 @@ The linear regression is one of the most well-known models in the context of mac
 
 The codes step-by-step develop the linear regression model, following a logical progression for learning its application and implementation. They adhere to best practices commonly used in machine learning.
 
+### Results
+
+- Correlations Heatmap
+
+<p align="center">
+    <img width="400" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/linear_regression/images/correlations_heatmap.png" alt="Material Bread logo">
+<p>
+
+- Model's Weights X Regularization Parameter
+
+<p align="center">
+    <img width="400" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/linear_regression/images/weights_lambda.png" alt="Material Bread logo">
+<p>
+
+- Train Loss
+
+ <p align="center">
+    <img width="400" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/linear_regression/images/train_loss.png" alt="Material Bread logo">
+<p>
+
+- Final Test Loss
+
+<p align="center">
+    <img width="400" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/linear_regression/images/final_loss.png" alt="Material Bread logo">
+<p>
+
 ### Technologies and Libraries
 
 - Jupyter Notebook
