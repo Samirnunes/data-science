@@ -63,19 +63,19 @@ Logistic regression is one of the most well-known Machine Learning models and is
 - Precision-Recall Scores
 
 <p align="center">
-    <img width="600" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/logistic_regression/images/precision_recall_scores.PNG" alt="Material Bread logo">
+    <img width="400" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/logistic_regression/images/precision_recall_scores.PNG" alt="Material Bread logo">
 <p>
  
 - Prediction Count
  
 <p align="center">
-    <img width="600" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/logistic_regression/images/precision_recall_scores.PNG" alt="Material Bread logo">
+    <img width="400" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/logistic_regression/images/precision_recall_scores.PNG" alt="Material Bread logo">
 <p>
  
 - Final Loss
 
 <p align="center">
-    <img width="600" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/logistic_regression/images/final_loss.PNG" alt="Material Bread logo">
+    <img width="400" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/logistic_regression/images/final_loss.PNG" alt="Material Bread logo">
 <p>
  
 ### Technologies and Libraries
