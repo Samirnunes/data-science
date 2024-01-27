@@ -39,24 +39,24 @@ To visualize the effects of L1 and L2 regularizations in a machine learning mode
 - Linear Regression with L1 Regularization
 
 <p align="center">
-    <img width="800" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/regularization/images/linear-l1-50.PNG" alt="Material Bread logo">
+    <img width="700" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/regularization/images/linear-l1-50.PNG" alt="Material Bread logo">
 <p>
 
 - Linear Regression with L2 Regularization
 
 <p align="center">
-    <img width="800" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/regularization/images/linear-l2-20.PNG" alt="Material Bread logo">
+    <img width="700" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/regularization/images/linear-l2-20.PNG" alt="Material Bread logo">
 <p>
 
 - Only L1 Regularization
 
 <p align="center">
-    <img width="800" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/regularization/images/l1-50.PNG" alt="Material Bread logo">
+    <img width="700" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/regularization/images/l1-50.PNG" alt="Material Bread logo">
 <p>
 
 - Only L2 Regularization
 
 <p align="center">
-    <img width="800" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/regularization/images/l2-20.PNG" alt="Material Bread logo">
+    <img width="700" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/regularization/images/l2-20.PNG" alt="Material Bread logo">
 <p>
 
