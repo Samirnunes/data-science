@@ -4,6 +4,6 @@ eda_dashboard_air_pollution_sao_paulo.pbix
 eda_sql_univariate_tech_layoffs/data/tech_layoffs.db
 eda-air-pollution-sao-paulo/data/SP_poluicao_dados.csv
 air-pollution-sao-paulo-project/data/SP_poluicao_dados.csv
-machine_learning/book_recomendation/data/
+machine_learning/book_recommendation/data/
 __pycache__/
 .ipynb_checkpoints/

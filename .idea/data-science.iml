@@ -3,6 +3,11 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/machine_learning/book_recomendation/data" />
+      <excludeFolder url="file://$MODULE_DIR$/machine_learning/book_recommendation/data" />
+      <excludeFolder url="file://$MODULE_DIR$/machine_learning/machine_learning_techniques/regularization/.ipynb_checkpoints" />
+      <excludeFolder url="file://$MODULE_DIR$/machine_learning/machine_learning_techniques/scaling/.ipynb_checkpoints" />
+      <excludeFolder url="file://$MODULE_DIR$/machine_learning/model_implementation/linear_regression/.ipynb_checkpoints" />
+      <excludeFolder url="file://$MODULE_DIR$/machine_learning/model_implementation/logistic_regression/.ipynb_checkpoints" />
     </content>
     <orderEntry type="jdk" jdkName="data-science" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
