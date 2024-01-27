@@ -69,7 +69,7 @@ Logistic regression is one of the most well-known Machine Learning models and is
 - Prediction Count
  
 <p align="center">
-    <img width="300" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/logistic_regression/images/precision_recall_scores.PNG" alt="Material Bread logo">
+    <img width="300" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/logistic_regression/images/prediction_count.PNG" alt="Material Bread logo">
 <p>
  
 - Final Loss
