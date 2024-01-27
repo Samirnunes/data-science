@@ -31,7 +31,7 @@ The codes step-by-step develop the linear regression model, following a logical 
 - Final Test Loss
 
 <p align="center">
-    <img width="600" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/linear_regression/images/final_loss.png" alt="Material Bread logo">
+    <img width="400" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/linear_regression/images/final_loss.png" alt="Material Bread logo">
 <p>
 
 ### Technologies and Libraries
