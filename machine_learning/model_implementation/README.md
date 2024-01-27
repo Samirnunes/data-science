@@ -46,6 +46,38 @@ The codes step-by-step develop the linear regression model, following a logical 
 
 Logistic regression is one of the most well-known Machine Learning models and is applied when we want to predict classifications through probabilities. Its principle involves the use of the sigmoid activation function in the weighted sum of feature values to obtain probabilities. These probabilities, when compared to a threshold, indicate the final classification of the target in that situation.
 
+### Results
+
+- Train Loss
+
+<p align="center">
+    <img width="600" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/logistic_regression/images/train_loss.PNG" alt="Material Bread logo">
+<p>
+
+- Precision-Recall Plot
+  
+<p align="center">
+    <img width="600" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/logistic_regression/images/precision_recall_plot.PNG" alt="Material Bread logo">
+<p>
+
+- Precision-Recall Scores
+
+<p align="center">
+    <img width="600" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/logistic_regression/images/precision_recall_scores.PNG" alt="Material Bread logo">
+<p>
+ 
+- Prediction Count
+ 
+<p align="center">
+    <img width="600" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/logistic_regression/images/precision_recall_scores.PNG" alt="Material Bread logo">
+<p>
+ 
+- Final Loss
+
+<p align="center">
+    <img width="600" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/logistic_regression/images/final_loss.PNG" alt="Material Bread logo">
+<p>
+ 
 ### Technologies and Libraries
 
 - Jupyter Notebook
