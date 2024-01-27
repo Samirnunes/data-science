@@ -1,6 +1,6 @@
 # Data Science Projects
 
-Each folder has a `README` containing explanations about your projects.
+Each folder has a `README` containing explanations about the projects.
 
 The folders are divided by type of project:
 
