@@ -13,19 +13,19 @@ The codes step-by-step develop the linear regression model, following a logical 
 - Correlations Heatmap
 
 <p align="center">
-    <img width="800" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/linear_regression/images/correlations_heatmap.png" alt="Material Bread logo">
+    <img width="600" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/linear_regression/images/correlations_heatmap.png" alt="Material Bread logo">
 <p>
 
 - Model's Weights X Regularization Parameter
 
 <p align="center">
-    <img width="800" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/linear_regression/images/weights_lambda.png" alt="Material Bread logo">
+    <img width="600" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/linear_regression/images/weights_lambda.png" alt="Material Bread logo">
 <p>
 
 - Train Loss
 
  <p align="center">
-    <img width="800" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/linear_regression/images/train_loss.png" alt="Material Bread logo">
+    <img width="600" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/linear_regression/images/train_loss.png" alt="Material Bread logo">
 <p>
 
 - Final Test Loss
