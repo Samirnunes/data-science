@@ -1,6 +1,6 @@
 # Model Implementation From Scratch
 
-## 1) Linear Regression Model with Mini-Batches Stochastic Gradient Descent
+## 1) Linear Regression with Mini-Batches Stochastic Gradient Descent
 
 - Article on Medium: https://medium.com/@samir.silva12342/implementação-de-modelos-do-zero-regressão-linear-b3cdb9de1a24
  
