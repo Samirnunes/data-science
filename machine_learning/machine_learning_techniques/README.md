@@ -10,13 +10,13 @@ In this project, I mention and describe the most commonly used types of scaling 
 
 ### Featured Scalings
 
-- Min-Max Scaling
+- Min-Max 
 
 <p align="center">
     <img width="300" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/scaling/images/min_max_formula.PNG" alt="Material Bread logo">
 <p>
 
-- Standard Scaling
+- Standard
 
 <p align="center">
     <img width="250" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/scaling/images/std_formula.PNG" alt="Material Bread logo">
