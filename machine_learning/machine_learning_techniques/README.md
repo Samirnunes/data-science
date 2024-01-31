@@ -8,6 +8,10 @@ One of the most important transformations that needs to be applied to training a
 
 In this project, I mention and describe the most commonly used types of scaling in machine learning. Besides, I show an example of Python code using them.
 
+### Data
+
+Bank Customer Churn Prediction Dataset from Kaggle: https://www.kaggle.com/datasets/shubhammeshram579/bank-customer-churn-prediction?resource=download&source=post_page-----d6fb0580dbd4--------------------------------
+
 ### Featured Scalings
 
 - Min-Max: 
@@ -34,7 +38,11 @@ In this project, I mention and describe the most commonly used types of scaling 
 
 To visualize the effects of L1 and L2 regularizations in a machine learning model, I’ve created a code based on my implementation from scratch of Linear Regression.
 
-### Some of the Results
+### Data
+
+Bank Customer Churn Prediction Dataset from Kaggle: https://www.kaggle.com/datasets/shubhammeshram579/bank-customer-churn-prediction?resource=download&source=post_page-----d6fb0580dbd4--------------------------------
+
+### Results
 
 - Linear Regression with L1 Regularization:
 
