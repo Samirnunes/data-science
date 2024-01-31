@@ -8,6 +8,10 @@ The linear regression is one of the most well-known models in the context of mac
 
 The codes step-by-step develop the linear regression model, following a logical progression for learning its application and implementation. They adhere to best practices commonly used in machine learning.
 
+### Data
+
+Data for Admission in the University from Kaggle: https://www.kaggle.com/datasets/akshaydattatraykhare/data-for-admission-in-the-university?source=post_page-----b3cdb9de1a24--------------------------------
+
 ### Results
 
 - Correlations Heatmap
@@ -47,6 +51,10 @@ The codes step-by-step develop the linear regression model, following a logical 
 - Article on Medium: https://medium.com/@samir.silva12342/model-implementation-from-scratch-logistic-regression-737ee80cba7d
 
 Logistic regression is one of the most well-known Machine Learning models and is applied when we want to predict classifications through probabilities. Its principle involves the use of the sigmoid activation function in the weighted sum of feature values to obtain probabilities. These probabilities, when compared to a threshold, indicate the final classification of the target in that situation.
+
+### Data
+
+COVID-19 Dataset from Kaggle: https://www.kaggle.com/datasets/meirnizri/covid19-dataset?source=post_page-----737ee80cba7d--------------------------------
 
 ### Results
 
