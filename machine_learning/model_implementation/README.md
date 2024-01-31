@@ -1,6 +1,6 @@
-# Model Implementation From Scratch: Linear Regression
+# Model Implementation From Scratch
 
-## 1) Linear Regression Model with Stochastic Gradiend Descent with Mini-Batches
+## 1) Linear Regression Model with Mini-Batches Stochastic Gradient Descent
 
 - Article on Medium: https://medium.com/@samir.silva12342/implementação-de-modelos-do-zero-regressão-linear-b3cdb9de1a24
  
@@ -42,7 +42,7 @@ The codes step-by-step develop the linear regression model, following a logical 
 - Numpy
 - Matplotlib
 
-## 2) Logistic Regression: An Application in High-Risk COVID-19 Patient Detection
+## 2) Logistic Regression with Mini-Batches Stochastic Gradient Descent
 
 Logistic regression is one of the most well-known Machine Learning models and is applied when we want to predict classifications through probabilities. Its principle involves the use of the sigmoid activation function in the weighted sum of feature values to obtain probabilities. These probabilities, when compared to a threshold, indicate the final classification of the target in that situation.
 
