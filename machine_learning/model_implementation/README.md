@@ -44,6 +44,8 @@ The codes step-by-step develop the linear regression model, following a logical 
 
 ## 2) Logistic Regression with Mini-Batches Stochastic Gradient Descent
 
+- Article on Medium: https://medium.com/@samir.silva12342/model-implementation-from-scratch-logistic-regression-737ee80cba7d
+
 Logistic regression is one of the most well-known Machine Learning models and is applied when we want to predict classifications through probabilities. Its principle involves the use of the sigmoid activation function in the weighted sum of feature values to obtain probabilities. These probabilities, when compared to a threshold, indicate the final classification of the target in that situation.
 
 ### Results
