@@ -10,19 +10,19 @@ In this project, I mention and describe the most commonly used types of scaling 
 
 ### Featured Scalings
 
-- Min-Max 
+- Min-Max: 
 
 <p align="center">
     <img width="300" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/scaling/images/min_max_formula.PNG" alt="Material Bread logo">
 <p>
 
-- Standard
+- Standard:
 
 <p align="center">
     <img width="250" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/scaling/images/std_formula.PNG" alt="Material Bread logo">
 <p>
 
-- Robust
+- Robust:
 
 <p align="center">
     <img width="300" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/scaling/images/robust_formula.PNG" alt="Material Bread logo">
@@ -36,25 +36,25 @@ To visualize the effects of L1 and L2 regularizations in a machine learning mode
 
 ### Some of the Results
 
-- Linear Regression with L1 Regularization
+- Linear Regression with L1 Regularization:
 
 <p align="center">
     <img width="700" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/regularization/images/linear-l1-50.PNG" alt="Material Bread logo">
 <p>
 
-- Linear Regression with L2 Regularization
+- Linear Regression with L2 Regularization:
 
 <p align="center">
     <img width="700" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/regularization/images/linear-l2-20.PNG" alt="Material Bread logo">
 <p>
 
-- Only L1 Regularization
+- Only L1 Regularization:
 
 <p align="center">
     <img width="700" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/regularization/images/l1-50.PNG" alt="Material Bread logo">
 <p>
 
-- Only L2 Regularization
+- Only L2 Regularization:
 
 <p align="center">
     <img width="700" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/regularization/images/l2-20.PNG" alt="Material Bread logo">
