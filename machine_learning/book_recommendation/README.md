@@ -4,7 +4,7 @@
 
 ## Idea
 
-We will make a book recommendation system based in the user's last read books. Our final objective is to recommend 10 books for each person. For this, we will first clusterize the books using K-Means algorithm after making PCA (Principal Component Analysis). This will be made by considering some characteristics:
+We will make a book recommendation system based in the user's last read books. Our final objective is to recommend 10 books for each person. For this, we will clusterize the books using the K-Means algorithm after making PCA (Principal Component Analysis). This will be made by considering some characteristics:
 
 - Year of Publication
 - Mean Age of Readers by Book
