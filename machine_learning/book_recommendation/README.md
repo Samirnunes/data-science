@@ -19,7 +19,7 @@ We will make a book recommendation system based in the user's last read books. O
 - Publisher (Count Encoded)
 - Book Appearances (Count encoding of ISBN)
 
-After that, we recommend books from the clusters which have a book that the person has already read. In this context, using bootstrap, we randomly select the next read book so we can select another book from the same cluster as it. This selection is done with K-Nearest Neighbors: we calculate the nearest neighbors from the same cluster and then select one of them to compose the recommendations - the additional condition is that the book must not have been recommended yet. The number of nearest neighbors will be determined by the length of the already read books, to guarantee that we will have sufficient neighbors to look for a new book to recommend.
+After that, we recommend books from the clusters which have a book that the person has already read. In this context, using bootstrap, we randomly select the next book that was read so we can select another book from the same cluster as it. This selection is done with K-Nearest Neighbors: we calculate the nearest neighbors from the same cluster and then select one of them to compose the recommendations - the additional condition is that the book must not have been recommended yet. The number of nearest neighbors will be determined by the length of the already read books, to guarantee that we will have sufficient neighbors to look for a new book to recommend.
 
 ## Data
 
