@@ -4,7 +4,7 @@
 
 ## Idea
 
-We will make a book recommendation system based in the user's last read books. Our final objective is to recommend 10 books for each person. For this, we will clusterize the books using the K-Means algorithm after making PCA (Principal Component Analysis). This will be made by considering some characteristics:
+We will make a book recommendation system based in the user's last read books. Our final objective is to recommend 10 books for each person. For this, we first make PCA (Principal Component Analysks) and then clusterize the books using K-Means. The clusters are created considering some characteristics:
 
 - Year of Publication
 - Mean Age of Readers by Book
@@ -19,7 +19,7 @@ We will make a book recommendation system based in the user's last read books. O
 - Publisher (Count Encoded)
 - Book Appearances (Count encoding of ISBN)
 
-Then, we will recommend numbers of books of the clusters which have books the person already read. Using bootstrap, we will select randomly the next read book to consider to select another book from the same cluster as it. This selection will be made using K-Nearest Neighbors: we will calculate nearest neighbors from the same cluster and then select one of them to compose the recommendations - the additional condition is that the book must not have been recommended yet. The number of nearest neighbors will be determined by the length of the already read books, to guarantee that we will have sufficient neighbors to look for a new book to recommend.
+After that, we recommend books from the clusters which have a book that the person has already read. In this context, using bootstrap, we randomly select the next read book so we can select another book from the same cluster as it. This selection is done with K-Nearest Neighbors: we calculate the nearest neighbors from the same cluster and then select one of them to compose the recommendations - the additional condition is that the book must not have been recommended yet. The number of nearest neighbors will be determined by the length of the already read books, to guarantee that we will have sufficient neighbors to look for a new book to recommend.
 
 ## Data
 
@@ -62,4 +62,3 @@ Books Dataset From Kaggle: https://www.kaggle.com/datasets/saurabhbagchi/books-d
 <p align="center">
     <img width="700" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/book_recommendation/images/recommendations.png" alt="Material Bread logo">
 <p>
-
