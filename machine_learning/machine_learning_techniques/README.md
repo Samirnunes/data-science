@@ -1,6 +1,6 @@
 # Machine Learning Techniques
 
-## 1)Scaling
+## 1) Scaling
 
 - Article on Medium: https://medium.com/@samir.silva12342/técnicas-de-aprendizado-de-máquina-scaling-d6fb0580dbd4
 
@@ -36,7 +36,7 @@ Bank Customer Churn Prediction Dataset from Kaggle: https://www.kaggle.com/datas
     <img width="300" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/scaling/images/robust_formula.PNG" alt="Material Bread logo">
 <p>
 
-## 2)Regularization
+## 2) Regularization
 
 - Article on Medium: https://medium.com/@samir.silva12342/técnicas-em-aprendizado-de-máquina-regularização-492e39433aca
 
