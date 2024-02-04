@@ -13,7 +13,7 @@ In this project, I mention and describe the most commonly used types of scaling 
 Bank Customer Churn Prediction Dataset from Kaggle: https://www.kaggle.com/datasets/shubhammeshram579/bank-customer-churn-prediction?resource=download&source=post_page-----d6fb0580dbd4--------------------------------
 
 <p align="center">
-    <img width="300" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/scaling/images/data.png" alt="Material Bread logo">
+    <img width="1000" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/scaling/images/data.png" alt="Material Bread logo">
 <p>
 
 ### Featured Scalings
@@ -33,7 +33,7 @@ Bank Customer Churn Prediction Dataset from Kaggle: https://www.kaggle.com/datas
 - Robust:
 
 <p align="center">
-    <img width="300" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/scaling/images/robust_formula.PNG" alt="Material Bread logo">
+    <img width="1000" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/machine_learning_techniques/scaling/images/robust_formula.PNG" alt="Material Bread logo">
 <p>
 
 ## Regularization
