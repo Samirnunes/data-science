@@ -45,11 +45,11 @@ The following files compose the project:
 - `recommendations.ipynb` notebook which uses the final implementation of the recommendation system. The final implementation encapsulates the system into the `BookRecommendationAlgorithm` class.
 
 - The final implementation is composed by the following files:
-    - `book_recommendation_algorithm`: contains the `BookRecommendationAlgorithm` class, which holds the final implemention of the recommendation algorithm.
-    - `book_recommendation_preprocessor`:  contains the `BookRecommendationPreprocessor` class, which makes the data preprocessing steps.
-    - `book_main_step_preprocessor`: contains the `BookMainStepPreprocessor` class, which makes the preprocessing of the main dataframe (the main dataframe contains all the informations from which the other ones derive).
-    - `book_recommendation_k_means`: contains the `BookRecommendationKMeans` class, which implements the k-means algorithm's steps to use for the clusters generation.
-    - `book_recommendation_k_nearest`: contains the `BookRecommendationKNearest` class, which implements the k-nearest neighbors algorithm based on a within cluster perspective.
+    - `book_recommendation_algorithm.py`: contains the `BookRecommendationAlgorithm` class, which holds the final implemention of the recommendation algorithm.
+    - `book_recommendation_preprocessor.py`:  contains the `BookRecommendationPreprocessor` class, which makes the data preprocessing steps.
+    - `book_main_step_preprocessor.py`: contains the `BookMainStepPreprocessor` class, which makes the preprocessing of the main dataframe (the main dataframe contains all the informations from which the other ones derive).
+    - `book_recommendation_k_means.py`: contains the `BookRecommendationKMeans` class, which implements the k-means algorithm's steps to use for the clusters generation.
+    - `book_recommendation_k_nearest.py`: contains the `BookRecommendationKNearest` class, which implements the k-nearest neighbors algorithm based on a within cluster perspective.
     - `utils.py`: used to make the data import steps easier.
       
 ### Images
