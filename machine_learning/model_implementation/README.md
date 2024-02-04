@@ -12,6 +12,10 @@ The codes step-by-step develop the linear regression model, following a logical 
 
 Data for Admission in the University from Kaggle: https://www.kaggle.com/datasets/akshaydattatraykhare/data-for-admission-in-the-university?source=post_page-----b3cdb9de1a24--------------------------------
 
+<p align="center">
+    <img width="600" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/linear_regression/images/data.png" alt="Material Bread logo">
+<p>
+
 ### Results
 
 - Correlations Heatmap
@@ -55,6 +59,11 @@ Logistic regression is one of the most well-known Machine Learning models and is
 ### Data
 
 COVID-19 Dataset from Kaggle: https://www.kaggle.com/datasets/meirnizri/covid19-dataset?source=post_page-----737ee80cba7d--------------------------------
+
+<p align="center">
+    <img width="600" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/logistic_regression/images/data.PNG" alt="Material Bread logo">
+<p>
+
 
 ### Results
 
