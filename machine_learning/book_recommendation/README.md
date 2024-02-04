@@ -28,6 +28,24 @@ Books Dataset From Kaggle: https://www.kaggle.com/datasets/saurabhbagchi/books-d
 
 ## Results
 
+### Code
+
+The following files compose the project:
+
+- `system.ipynb` notebook containing the system development from the start. It shows step-by-step how the recommendation system was created.
+
+- `recommendations.ipynb` notebook which uses the final implementation of the recommendation system. The final implementation encapsulates the system into the `BookRecommendationAlgorithm` class.
+
+- The final implementation is composed by the following files:
+    - `book_recommendation_algorithm`: contains the `BookRecommendationAlgorithm` class, which holds the final implemention of the recommendation algorithm.
+    - `book_recommendation_preprocessor`:  contains the `BookRecommendationPreprocessor` class, which makes the data preprocessing steps.
+    - `book_main_step_preprocessor`: contains the `BookMainStepPreprocessor` class, which makes the preprocessing of the main dataframe (the main dataframe contains all the informations from which the other ones derive).
+    - `book_recommendation_k_means`: contains the `BookRecommendationKMeans` class, which implements the k-means algorithm's steps to use for the clusters generation.
+    - `book_recommendation_k_nearest`: contains the `BookRecommendationKNeares` class, which implements the k-nearest-neighbors algorithm based on a within cluster perspective.
+    - `utils.py`: used to make the data import steps easier.
+      
+### Graphical
+
 - Initial Correlations:
 
 <p align="center">
@@ -50,12 +68,6 @@ Books Dataset From Kaggle: https://www.kaggle.com/datasets/saurabhbagchi/books-d
 
 <p align="center">
     <img width="600" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/book_recommendation/images/elbow.png" alt="Material Bread logo">
-<p>
-
-- Recommendation Algorithm:
-
-<p align="center">
-    <img width="700" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/book_recommendation/images/algorithm.png" alt="Material Bread logo">
 <p>
 
 - Book Recommendations:
