@@ -13,7 +13,7 @@ The codes step-by-step develop the linear regression model, following a logical 
 Data for Admission in the University from Kaggle: https://www.kaggle.com/datasets/akshaydattatraykhare/data-for-admission-in-the-university?source=post_page-----b3cdb9de1a24--------------------------------
 
 <p align="center">
-    <img width="600" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/linear_regression/images/data.png" alt="Material Bread logo">
+    <img width="800" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/linear_regression/images/data.png" alt="Material Bread logo">
 <p>
 
 ### Results
@@ -21,7 +21,7 @@ Data for Admission in the University from Kaggle: https://www.kaggle.com/dataset
 - Correlations Heatmap
 
 <p align="center">
-    <img width="800" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/linear_regression/images/correlations_heatmap.png" alt="Material Bread logo">
+    <img width="600" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/linear_regression/images/correlations_heatmap.png" alt="Material Bread logo">
 <p>
 
 - Model's Weights X Regularization Parameter
