@@ -44,7 +44,7 @@ The following files compose the project:
     - `book_recommendation_k_nearest`: contains the `BookRecommendationKNearest` class, which implements the k-nearest neighbors algorithm based on a within cluster perspective.
     - `utils.py`: used to make the data import steps easier.
       
-### Graphical
+### Images
 
 - Initial Correlations:
 
