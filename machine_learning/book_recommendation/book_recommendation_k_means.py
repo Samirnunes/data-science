@@ -1,5 +1,5 @@
 from sklearn.cluster import KMeans
-class BookRecommendationKmeans():
+class BookRecommendationKMeans():
     def __init__(self):
         pass
 

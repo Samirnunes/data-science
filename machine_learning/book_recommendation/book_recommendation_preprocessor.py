@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from book_main_step_preprocessor import BookMainStepPreprocessor
 from book_recommendation_pca import BookRecommendationPCA
-from book_recommendation_kmeans import BookRecommendationKmeans
+from book_recommendation_k_means import BookRecommendationKMeans
 
 class BookRecommendationPreprocessor:
     def __init__(self):
@@ -20,7 +20,7 @@ class BookRecommendationPreprocessor:
         df_main = BookMainStepPreprocessor().fit_transform(df_main)
         X_train = BookRecommendationPreprocessor.generate_X_train_for_algorithms(df_main)
         X_train_reduced_pca = BookRecommendationPCA.pca(X_train)
-        df_books = BookRecommendationKmeans.kmeans(df_main, X_train_reduced_pca)
+        df_books = BookRecommendationKMeans.kmeans(df_main, X_train_reduced_pca)
         X_train = BookRecommendationPreprocessor.generate_X_train_for_algorithms(df_main)
         df_users_already_read = BookRecommendationPreprocessor.generate_users_already_read(df_users, df_books)
         X_train = BookRecommendationPreprocessor.add_clusters_to_X_train(X_train, df_books)
