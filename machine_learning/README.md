@@ -1,6 +1,6 @@
 # Machine Learning Projects
 
-Each folder has a `README` containing explanations about the projects.
+Each folder has a `README` containing explanations about the projects:
 
 - Book Recommendation System using PCA, K-Means and K-Nearest Neighbors: `book_recommendation`
 
