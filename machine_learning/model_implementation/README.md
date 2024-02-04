@@ -18,6 +18,22 @@ Data for Admission in the University from Kaggle: https://www.kaggle.com/dataset
 
 ### Results
 
+#### Algorithm
+
+<p align="center">
+    <img width="800" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/linear_regression/images/explanation1.png" alt="Material Bread logo">
+<p>
+
+<p align="center">
+    <img width="800" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/linear_regression/images/explanation2.png" alt="Material Bread logo">
+<p>
+
+<p align="center">
+    <img width="800" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/linear_regression/images/explanation3.png" alt="Material Bread logo">
+<p>
+
+#### Images
+
 - Correlations Heatmap
 
 <p align="center">
