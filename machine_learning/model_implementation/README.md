@@ -21,7 +21,7 @@ Data for Admission in the University from Kaggle: https://www.kaggle.com/dataset
 - Correlations Heatmap
 
 <p align="center">
-    <img width="600" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/linear_regression/images/correlations_heatmap.png" alt="Material Bread logo">
+    <img width="800" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/linear_regression/images/correlations_heatmap.png" alt="Material Bread logo">
 <p>
 
 - Model's Weights X Regularization Parameter
@@ -61,7 +61,7 @@ Logistic regression is one of the most well-known Machine Learning models and is
 COVID-19 Dataset from Kaggle: https://www.kaggle.com/datasets/meirnizri/covid19-dataset?source=post_page-----737ee80cba7d--------------------------------
 
 <p align="center">
-    <img width="600" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/logistic_regression/images/data.PNG" alt="Material Bread logo">
+    <img width="800" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/model_implementation/logistic_regression/images/data.PNG" alt="Material Bread logo">
 <p>
 
 
