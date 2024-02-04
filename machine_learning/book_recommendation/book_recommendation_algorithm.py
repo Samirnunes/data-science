@@ -10,17 +10,14 @@ class BookRecommendationAlgorithm:
         self.df_books = None
         self.df_users_already_read = None
 
-    def persist_fit_recommend(self, df_books, df_users_already_read, n_users):
+    def fit_recommend(self, df_books, df_users_already_read, n_users):
         if os.path.isfile(self.recommendations_path):
             recommendations = pd.read_csv(self.recommendations_path)
         else:
-            recommendations = self.fit_recommend(df_books, df_users_already_read, 100)
+            self.fit(df_books, df_users_already_read)
+            recommendations = self.recommend(n_users)
             recommendations.to_csv(self.recommendations_path, index=False)
         return recommendations
-
-    def fit_recommend(self, df_books, df_users_already_read, n_users):
-        self.fit(df_books, df_users_already_read)
-        return self.recommend(n_users)
 
     def fit(self, df_books, df_users_already_read):
         self.df_books = df_books

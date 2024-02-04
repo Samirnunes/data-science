@@ -36,7 +36,7 @@ class BookMainStepPreprocessor(BaseEstimator, TransformerMixin):
 
     @staticmethod
     def preprocess_age(df_main):
-        return df_main[df_main["Age"] < 100]
+        return df_main[(df_main["Age"] >= 18) & (df_main["Age"] < 100)]
 
     @staticmethod
     def generate_age_features(df_main):

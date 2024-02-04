@@ -21,7 +21,6 @@ class BookRecommendationPreprocessor:
         X_train = BookRecommendationPreprocessor.generate_X_train_for_algorithms(df_main)
         X_train_reduced_pca = BookRecommendationPCA.pca(X_train)
         df_books = BookRecommendationKMeans.kmeans(df_main, X_train_reduced_pca)
-        X_train = BookRecommendationPreprocessor.generate_X_train_for_algorithms(df_main)
         df_users_already_read = BookRecommendationPreprocessor.generate_users_already_read(df_users, df_books)
         X_train = BookRecommendationPreprocessor.add_clusters_to_X_train(X_train, df_books)
         return df_main, df_books, df_users_already_read, X_train
