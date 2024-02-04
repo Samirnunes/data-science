@@ -1,4 +1,5 @@
-# Book Recommendation System using PCA, K-Means and K-Nearest Neighbors
+# Book Recommendation System
+# using PCA, K-Means and K-Nearest Neighbors
 
 - Article on Medium: https://medium.com/@samir.silva12342/making-a-book-recommendation-system-with-pca-k-means-and-k-nearest-neighbors-d23f0a31aaf2
 
