@@ -81,5 +81,5 @@ The following files compose the project:
 - Book Recommendations:
 
 <p align="center">
-    <img width="700" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/book_recommendation/images/recommendations.png" alt="Material Bread logo">
+    <img width="900" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/book_recommendation/images/recommendations.png" alt="Material Bread logo">
 <p>
