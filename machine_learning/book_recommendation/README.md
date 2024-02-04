@@ -31,7 +31,7 @@ After that, we recommend books from the clusters which have a book that the pers
 Books Dataset From Kaggle: https://www.kaggle.com/datasets/saurabhbagchi/books-dataset
 
 <p align="center">
-    <img width="1000" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/book_recommendation/images/data.png" alt="Material Bread logo">
+    <img width="800" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/book_recommendation/images/data.png" alt="Material Bread logo">
 <p>
 
 ## Results
