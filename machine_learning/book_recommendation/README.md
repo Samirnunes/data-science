@@ -5,10 +5,6 @@ using PCA, K-Means and K-Nearest Neighbors
 
 ## Idea
 
-<p align="center">
-    <img width="1000" src="https://github.com/Samirnunes/data-science/blob/main/machine_learning/book_recommendation/images/book_recommendation_system.png" alt="Material Bread logo">
-<p>
-
 We will make a book recommendation system based in the user's last read books. Our final objective is to recommend 10 books for each person. For this, we first make PCA (Principal Component Analysks) and then clusterize the books using K-Means. The clusters are created considering some characteristics:
 
 - Year of Publication
